@@ -9,7 +9,7 @@
 - Only processes the number of sentences specified.
 - Splits the data and writes train and test files (see data directory).
 
-### tokenize.methods
+### tokenize.py
 - Contains methods to tokenize sentences.
 
 ### model.py
