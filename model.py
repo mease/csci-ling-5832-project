@@ -42,7 +42,8 @@ class Transformer(nn.Module):
         decoder_layer = nn.TransformerDecoderLayer(d_model, nhead, dim_feedforward, dropout, activation)
         decoder_norm = nn.LayerNorm(d_model)
         self.decoder = nn.TransformerDecoder(decoder_layer, num_decoder_layers, decoder_norm)
-        self.out = nn.Linear(512, target_vocab_length)
+        #self.out = nn.Linear(512, target_vocab_length)
+        self.out = nn.Linear(d_model, target_vocab_length)
         self._reset_parameters()
         self.d_model = d_model
         self.nhead = nhead

@@ -140,7 +140,9 @@ def train(train_iter, val_iter, model, optim, num_epochs, batch_size,
     return train_losses, valid_losses
 
 
-def main(tok_method, train_file, val_file, num_epochs, batch_size, learning_rate, data_path):
+def main(tok_method, train_file, val_file, num_epochs, batch_size, d_model,
+         nhead, num_encoder_layers, num_decoder_layers, dim_feedforward,
+         dropout, learning_rate, data_path):
     SRC = ttdata.Field(tokenize=tok_method, pad_token=BLANK_WORD)
     TGT = ttdata.Field(tokenize=tok_method, init_token = BOS_WORD, eos_token = EOS_WORD, pad_token=BLANK_WORD)
     
@@ -168,7 +170,14 @@ def main(tok_method, train_file, val_file, num_epochs, batch_size, learning_rate
     source_vocab_length = len(SRC.vocab)
     target_vocab_length = len(TGT.vocab)
     
-    model = Transformer(source_vocab_length=source_vocab_length,target_vocab_length=target_vocab_length)
+    model = Transformer(d_model=d_model,
+                        nhead=nhead,
+                        num_encoder_layers=num_encoder_layers,
+                        num_decoder_layers=num_decoder_layers,
+                        dim_feedforward=dim_feedforward,
+                        dropout=dropout,
+                        source_vocab_length=source_vocab_length,
+                        target_vocab_length=target_vocab_length)
     optim = torch.optim.Adam(model.parameters(), lr=learning_rate, betas=(0.9, 0.98), eps=1e-9)
     model = model.cuda()
     
@@ -194,6 +203,30 @@ if __name__ == '__main__':
         '--learning_rate',
         default=0.0001,
         help='Adam optimizer learning rate.')
+    parser.add_argument(
+        '--d_model',
+        default=512,
+        help='The number of expected features in the input to the transformer.')
+    parser.add_argument(
+        '--nhead',
+        default=8,
+        help='The number of attention heads.')
+    parser.add_argument(
+        '--num_encoder_layers',
+        default=6,
+        help='The number of encoder layers.')
+    parser.add_argument(
+        '--num_decoder_layers',
+        default=6,
+        help='The number of decoder layers.')
+    parser.add_argument(
+        '--dim_feedforward',
+        default=2048,
+        help='The dimension of the feedforward network model.')
+    parser.add_argument(
+        '--dropout',
+        default=0.1,
+        help='The dropout value.')
 
     args = parser.parse_args()
 
@@ -211,6 +244,12 @@ if __name__ == '__main__':
          args.val_file,
          int(args.num_epochs),
          int(args.batch_size),
+         int(args.d_model),
+         int(args.nhead),
+         int(args.num_encoder_layers),
+         int(args.num_decoder_layers),
+         int(args.dim_feedforward),
+         float(args.dropout),
          float(args.learning_rate),
          args.data_path)
     
