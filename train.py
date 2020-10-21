@@ -191,8 +191,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument('train_file', help='Source language file.')
-    parser.add_argument('val_file', help='Target language file.')
+    parser.add_argument('train_file', help='Training language pair file (tab-separated).')
+    parser.add_argument('val_file', help='Validation language pair file (tab-separated).')
     parser.add_argument('num_epochs', help='Number of epochs to train.')
     parser.add_argument('batch_size', help='Batch size.')
     parser.add_argument(
