@@ -25,12 +25,16 @@ def reduce_data(src_file, tgt_file, max_words, max_pairs):
     return X, y
 
 
-def split(X, y):
-    # Train/test split
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=10142020)
+def split(X, y, train, val, test):
+    ratio = (val + test) / (train + val + test)
+    X_train, X_tv, y_train, y_tv = train_test_split(X, y, test_size=ratio, random_state=10142020)
+    
+    ratio = test / (val + test)
+    X_val, X_test, y_val, y_test = train_test_split(X_tv, y_tv, test_size=ratio, random_state=10152020)
     print('Train size:', len(X_train))
-    print('Test size:', len(X_test))
-    return X_train, X_test, y_train, y_test
+    print('Val size:  ', len(X_val))
+    print('Test size: ', len(X_test))
+    return X_train, X_val, X_test, y_train, y_val, y_test
 
 
 def unicode_to_ascii(s):
@@ -39,9 +43,9 @@ def unicode_to_ascii(s):
 
 
 def preprocess_sentence(w, lowercase):
+    w = unicode_to_ascii(w.strip())
     if lowercase:
         w = w.lower()
-    w = unicode_to_ascii(w.strip())
     w = re.sub(r"([?.!,¿])", r" \1 ", w)
     w = re.sub(r'[" "]+', " ", w)
     w = re.sub(r"([\t]+)", " ", w)
@@ -59,10 +63,12 @@ def write_file(out_file, X, y, lowercase):
     print("Wrote", out_file)
 
 
-def main(src_file, tgt_file, train_file, test_file, max_words, max_pairs, lowercase):
+def main(src_file, tgt_file, train_file, val_file, test_file, max_words, train, val, test, lowercase):
+    max_pairs = train + val + test
     X, y = reduce_data(src_file, tgt_file, max_words, max_pairs)
-    X_train, X_test, y_train, y_test = split(X, y)
+    X_train, X_val, X_test, y_train, y_val, y_test = split(X, y, train, val, test)
     write_file(train_file, X_train, y_train, lowercase)
+    write_file(val_file, X_val, y_val, lowercase)
     write_file(test_file, X_test, y_test, lowercase)
 
 
@@ -73,18 +79,27 @@ if __name__ == '__main__':
     parser.add_argument('src_file', help='Source language file.')
     parser.add_argument('tgt_file', help='Target language file.')
     parser.add_argument('train_file', help='Output training file to be written.')
+    parser.add_argument('val_file', help='Output validation file to be written.')
     parser.add_argument('test_file', help='Output test file to be written.')
     parser.add_argument(
         '--max_words',
         default=30,
         help='Maximum number of words in sentence.')
     parser.add_argument(
-        '--max_pairs',
-        default=125_000,
-        help='Maximum number of pairs to keep.')
+        '--train',
+        default=100_000,
+        help='Number of training samples.')
+    parser.add_argument(
+        '--val',
+        default=25_000,
+        help='Number of validation samples.')
+    parser.add_argument(
+        '--test',
+        default=25_000,
+        help='Number of test samples.')
     parser.add_argument(
         '--lowercase',
-        default=False,
+        default='True',
         help='Convert sentences to lowercase.')
 
     args = parser.parse_args()
@@ -92,7 +107,10 @@ if __name__ == '__main__':
     main(args.src_file,
          args.tgt_file,
          args.train_file,
+         args.val_file,
          args.test_file,
          int(args.max_words),
-         int(args.max_pairs),
+         int(args.train),
+         int(args.val),
+         int(args.test),
          args.lowercase == 'True')
