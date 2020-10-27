@@ -62,14 +62,23 @@ def write_file(out_file, X, y, lowercase):
                                       preprocess_sentence(y[i], lowercase)))
     print("Wrote", out_file)
 
+def write_tok_file(tok_file, data, lowercase):
+    with io.open(tok_file, 'w', encoding='UTF-8') as f:
+        for i in range(len(data)):
+            f.write('{}\n'.format(preprocess_sentence(data[i], lowercase)))
+    print("Wrote", tok_file)
+    
 
-def main(src_file, tgt_file, train_file, val_file, test_file, max_words, train, val, test, lowercase):
+def main(src_file, tgt_file, train_file, val_file, test_file, src_tok_file,
+         tgt_tok_file, max_words, train, val, test, lowercase):
     max_pairs = train + val + test
     X, y = reduce_data(src_file, tgt_file, max_words, max_pairs)
     X_train, X_val, X_test, y_train, y_val, y_test = split(X, y, train, val, test)
     write_file(train_file, X_train, y_train, lowercase)
     write_file(val_file, X_val, y_val, lowercase)
     write_file(test_file, X_test, y_test, lowercase)
+    write_tok_file(src_tok_file, X_train, lowercase)
+    write_tok_file(tgt_tok_file, y_train, lowercase)
 
 
 if __name__ == '__main__':
@@ -81,6 +90,8 @@ if __name__ == '__main__':
     parser.add_argument('train_file', help='Output training file to be written.')
     parser.add_argument('val_file', help='Output validation file to be written.')
     parser.add_argument('test_file', help='Output test file to be written.')
+    parser.add_argument('src_tok_file', help='Source language file for tokenizer training to be written.')
+    parser.add_argument('tgt_tok_file', help='Target language file for tokenizer training to be written.')
     parser.add_argument(
         '--max_words',
         default=30,
@@ -109,6 +120,8 @@ if __name__ == '__main__':
          args.train_file,
          args.val_file,
          args.test_file,
+         args.src_tok_file,
+         args.tgt_tok_file,
          int(args.max_words),
          int(args.train),
          int(args.val),

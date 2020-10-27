@@ -15,15 +15,16 @@ from torch.autograd import Variable
 import time
 
 from model import Transformer
-from tokenize_methods import tokenize_nltk
+from tokenize_methods import TokenizerWrapper
 
 
 BOS_WORD = '<s>'
 EOS_WORD = '</s>'
-BLANK_WORD = "<blank>"
+BLANK_WORD = '<blank>'
+SPECIAL_TOKENS = [BOS_WORD, EOS_WORD, BLANK_WORD]
 
 
-def greedy_decode_sentence(model, sentence, SRC, TGT):
+def greedy_decode_sentence(model, sentence, SRC, TGT, tokenizer):
     model.eval()
     sentence = SRC.preprocess(sentence)
     indexed = []
@@ -48,7 +49,8 @@ def greedy_decode_sentence(model, sentence, SRC, TGT):
         if add_word == EOS_WORD:
             break
         trg = torch.cat((trg,torch.LongTensor([[pred.argmax(dim=2)[-1]]]).cuda()))
-    return translated_sentence
+    
+    return tokenizer.decode(translated_sentence.strip(), BLANK_WORD)
 
 
 def train_epoch(ds_iter, model, optim, batch_size, train=True, use_gpu=True):
@@ -89,7 +91,7 @@ def train_epoch(ds_iter, model, optim, batch_size, train=True, use_gpu=True):
 
 
 def train(train_iter, val_iter, model, optim, num_epochs, batch_size,
-          test_src_sentence, test_tgt_sentence, SRC, TGT, use_gpu=True):
+          test_src_sentence, test_tgt_sentence, SRC, TGT, src_tokenizer, tgt_tokenizer, use_gpu=True):
     train_losses = []
     valid_losses = []
     best_epoch = -1
@@ -126,11 +128,11 @@ def train(train_iter, val_iter, model, optim, num_epochs, batch_size,
         
         # Check Example after each epoch:
         logging.info('')
-        logging.info(f"Source: {test_src_sentence}")
+        logging.info(f"Source: {src_tokenizer.decode(test_src_sentence, BLANK_WORD)}")
         logging.info('')
-        logging.info(f"Target: {test_tgt_sentence}")
+        logging.info(f"Target: {tgt_tokenizer.decode(test_tgt_sentence, BLANK_WORD)}")
         logging.info('')
-        logging.info(f"Predicted: {greedy_decode_sentence(model, test_src_sentence, SRC, TGT)}")
+        logging.info(f"Predicted: {greedy_decode_sentence(model, test_src_sentence, SRC, TGT, tgt_tokenizer)}")
         logging.info("-----------------------------------------")
         logging.info('')
     
@@ -140,13 +142,21 @@ def train(train_iter, val_iter, model, optim, num_epochs, batch_size,
     return train_losses, valid_losses
 
 
-def main(tok_method, train_file, val_file, num_epochs, batch_size, d_model,
+def main(tokenizer, src_tok_file, tgt_tok_file, train_file, val_file, num_epochs, batch_size, d_model,
          nhead, num_encoder_layers, num_decoder_layers, dim_feedforward,
          dropout, learning_rate, data_path):
-    SRC = ttdata.Field(tokenize=tok_method, pad_token=BLANK_WORD)
-    TGT = ttdata.Field(tokenize=tok_method, init_token = BOS_WORD, eos_token = EOS_WORD, pad_token=BLANK_WORD)
+    logging.info('Using tokenizer: {}'.format(tokenizer))
     
-    logging.info('Loding training data...')
+    src_tokenizer = TokenizerWrapper(tokenizer)
+    src_tokenizer.train(src_tok_file, 20000, SPECIAL_TOKENS)
+    
+    tgt_tokenizer = TokenizerWrapper(tokenizer)
+    tgt_tokenizer.train(tgt_tok_file, 20000, SPECIAL_TOKENS)
+    
+    SRC = ttdata.Field(tokenize=src_tokenizer.tokenize, pad_token=BLANK_WORD)
+    TGT = ttdata.Field(tokenize=tgt_tokenizer.tokenize, init_token = BOS_WORD, eos_token = EOS_WORD, pad_token=BLANK_WORD)
+    
+    logging.info('Loading training data...')
     train_ds, val_ds = ttdata.TabularDataset.splits(
         path=data_path, format='tsv',
         train=train_file,
@@ -184,7 +194,7 @@ def main(tok_method, train_file, val_file, num_epochs, batch_size, d_model,
     train_losses,valid_losses = train(train_iter, val_iter,
                                       model, optim, num_epochs, batch_size,
                                       test_src_sentence, test_tgt_sentence,
-                                      SRC, TGT)
+                                      SRC, TGT, src_tokenizer, tgt_tokenizer)
     
 
 if __name__ == '__main__':
@@ -195,6 +205,9 @@ if __name__ == '__main__':
     parser.add_argument('val_file', help='Validation language pair file (tab-separated).')
     parser.add_argument('num_epochs', help='Number of epochs to train.')
     parser.add_argument('batch_size', help='Batch size.')
+    parser.add_argument('tokenizer', help='The tokenizer type.')
+    parser.add_argument('src_tok_file', help='The source tokenizer file.')
+    parser.add_argument('tgt_tok_file', help='The target tokenizer file.')
     parser.add_argument(
         '--data_path',
         default='data',
@@ -239,7 +252,9 @@ if __name__ == '__main__':
     console.setLevel(logging.DEBUG)
     logging.getLogger('').addHandler(console)
     
-    main(tokenize_nltk,
+    main(args.tokenizer,
+         args.src_tok_file,
+         args.tgt_tok_file,
          args.train_file,
          args.val_file,
          int(args.num_epochs),
