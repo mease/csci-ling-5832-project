@@ -17,7 +17,7 @@ def reduce_data(src_file, tgt_file, max_words, max_pairs):
     for i in range(len(s_lines)):
         s_toks = len(word_tokenize(s_lines[i]))
         t_toks = len(word_tokenize(t_lines[i]))
-        if s_toks <= max_words and t_toks <= max_words:
+        if s_toks <= max_words and t_toks <= max_words and s_toks !=0 and t_toks != 0:
             X.append(s_lines[i])
             y.append(t_lines[i])
             if len(X) == max_pairs:
