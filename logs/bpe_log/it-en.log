@@ -1,0 +1,238 @@
+Loading training data...
+SRC vocab size: 18510
+TGT vocab size: 17222
+Starting Epoch [1/20]
+Epoch [1/20] complete in 756.644 seconds.
+Train Loss: 105.863. Val Loss: 89.979
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: the same of the same time , mr president-up , on the same of the same of the same of the same-up of the same-up , on the same-up-up of the same-up of the same time , on
+-----------------------------------------
+
+Starting Epoch [2/20]
+Epoch [2/20] complete in 775.923 seconds.
+Train Loss: 84.110. Val Loss: 79.999
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: question no 1 by mr van den den den den den den den den den den/2001 , on behalf of the gue/2001) , on the last year .</s>
+-----------------------------------------
+
+Starting Epoch [3/20]
+Epoch [3/20] complete in 772.566 seconds.
+Train Loss: 75.033. Val Loss: 71.705
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: are it not a great deal of violence , mr van den wogau , on the subject of the violence , on the 000 of the violence and the violence of the violence .</s>
+-----------------------------------------
+
+Starting Epoch [4/20]
+Epoch [4/20] complete in 773.075 seconds.
+Train Loss: 66.647. Val Loss: 65.332
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: is it not a good of the lack of the 'b5-033/2001 , mr van den5-033 , c5-033/2001 , c5-0303030303033 and mr van den5
+-----------------------------------------
+
+Starting Epoch [5/20]
+Epoch [5/20] complete in 772.752 seconds.
+Train Loss: 59.935. Val Loss: 60.464
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: is it not mr miranda's second-b5-005-b5-0058 , c5-0058 , c5-0058/2000</s>
+-----------------------------------------
+
+Starting Epoch [6/20]
+Epoch [6/20] complete in 773.404 seconds.
+Train Loss: 54.732. Val Loss: 57.095
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: b5-017-de/2001 by mr belder , 'bananan' , 'b5-017-de/2001 , 'b5-de/2001-de/2001) and 'b5-de)-de
+-----------------------------------------
+
+Starting Epoch [7/20]
+Epoch [7/20] complete in 770.952 seconds.
+Train Loss: 50.751. Val Loss: 54.680
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: b5-0384/2000 by mr vinci-de group , on the b5-0380/2000 by the c5-0380/2000 by the b5-0385-0385-0385-0380/2000
+-----------------------------------------
+
+Starting Epoch [8/20]
+Epoch [8/20] complete in 770.985 seconds.
+Train Loss: 47.587. Val Loss: 52.557
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: is it not a good-ban-b5-0148/2000 by c5-0345-0345-0345/ c5-0345-0345-0345/2000 by c5-0345-0345
+-----------------------------------------
+
+Starting Epoch [9/20]
+Epoch [9/20] complete in 772.872 seconds.
+Train Loss: 44.970. Val Loss: 51.415
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: a c5-de-de-de-de-de-b5-de-de-de-de-de-de-de-de-de-de-de-de-de-de-de-de-de
+-----------------------------------------
+
+Starting Epoch [10/20]
+Epoch [10/20] complete in 771.168 seconds.
+Train Loss: 42.708. Val Loss: 51.150
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: a c-de-de-de-ban-de-old anti-bkka-034-a-de-old anti-0340/2000-de-de-de-de-de-de-de-
+-----------------------------------------
+
+Starting Epoch [11/20]
+Epoch [11/20] complete in 771.053 seconds.
+Train Loss: 40.753. Val Loss: 50.697
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: a can-old-old-old-old-bk-bk-bk-b5-0385-0345-0345-0345-0345-0345-0345-0345-0345
+-----------------------------------------
+
+Starting Epoch [12/20]
+Epoch [12/20] complete in 771.494 seconds.
+Train Loss: 38.943. Val Loss: 50.240
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: an international anti-deererererererererererererererererererererererererererererererera bo-a bo-a bo-aer
+-----------------------------------------
+
+Starting Epoch [13/20]
+Epoch [13/20] complete in 769.990 seconds.
+Train Loss: 37.306. Val Loss: 49.850
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: b5-0275-0275/ green san green den bos and a liberal green child pornography on a million child soldiers and a million child laundering child laundering</s>
+-----------------------------------------
+
+Starting Epoch [14/20]
+Epoch [14/20] complete in 770.825 seconds.
+Train Loss: 35.796. Val Loss: 50.093
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: a c5-038-038/ green san green den bos-old green-old green-03 038 million green-03 03  b5-03  b5-03 03 03  why green-038
+-----------------------------------------
+
+Starting Epoch [15/20]
+Epoch [15/20] complete in 772.363 seconds.
+Train Loss: 34.340. Val Loss: 50.118
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: b5-038-038-old-038-old/2001 by means of a 'mk-h-038-030 million of 'mk-old-old-old-old-old-old-old-038-
+-----------------------------------------
+
+Starting Epoch [16/20]
+Epoch [16/20] complete in 770.742 seconds.
+Train Loss: 33.018. Val Loss: 50.644
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: isnururk-h-0385-0385-0385 by a c- 35 million a huge-038-old nuclear-03                   
+-----------------------------------------
+
+Starting Epoch [17/20]
+Epoch [17/20] complete in 772.048 seconds.
+Train Loss: 31.768. Val Loss: 50.563
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: b5-0385/2001 by c5- terrorist5-0065-0065(b5-0065/2001 by mr 0385-0385­              
+-----------------------------------------
+
+Starting Epoch [18/20]
+Epoch [18/20] complete in 773.775 seconds.
+Train Loss: 30.570. Val Loss: 51.963
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: an unadk-b-h-038-bunader is a huge amount of financial-bunad-h-0385-0385-            ­ ­ 
+-----------------------------------------
+
+Starting Epoch [19/20]
+Epoch [19/20] complete in 772.595 seconds.
+Train Loss: 29.432. Val Loss: 51.828
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: an un  regrettable-                                             
+-----------------------------------------
+
+Starting Epoch [20/20]
+Epoch [20/20] complete in 770.752 seconds.
+Train Loss: 28.308. Val Loss: 52.406
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: is no dilarururururur-h- ad5- ad5- ad5- ad5­ cause  cause  emergency refugees- than ­h- than ­  ­h­h- instrument  
+-----------------------------------------
+
+Training complete in 4.292 hours.
+Best train loss: 37.30603485083016. Best val loss: 49.85042456788719. Attained at epoch 13
