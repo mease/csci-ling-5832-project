@@ -36,7 +36,7 @@ def greedy_decode_sentence(model, sentence, SRC, TGT, tokenizer):
     sentence = Variable(torch.LongTensor([indexed])).cuda()
     trg_init_tok = TGT.vocab.stoi[BOS_WORD]
     trg = torch.LongTensor([[trg_init_tok]]).cuda()
-    translated_sentence = ""
+    tokens = []
     maxlen = 50
     for i in range(maxlen):
         size = trg.size(0)
@@ -45,12 +45,12 @@ def greedy_decode_sentence(model, sentence, SRC, TGT, tokenizer):
         np_mask = np_mask.cuda()
         pred = model(sentence.transpose(0,1), trg, tgt_mask = np_mask)
         add_word = TGT.vocab.itos[pred.argmax(dim=2)[-1]]
-        translated_sentence += " " + add_word
+        tokens.append(add_word)
         if add_word == EOS_WORD:
             break
         trg = torch.cat((trg,torch.LongTensor([[pred.argmax(dim=2)[-1]]]).cuda()))
     
-    return tokenizer.decode(translated_sentence.strip(), BLANK_WORD)
+    return tokenizer.decode(tokens, BLANK_WORD)
 
 
 def train_epoch(ds_iter, model, optim, batch_size, train=True, use_gpu=True):
