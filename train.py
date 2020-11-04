@@ -13,6 +13,8 @@ import torch
 import torch.nn.functional as F
 from torch.autograd import Variable
 import time
+from nltk.translate.bleu_score import sentence_bleu
+from nltk.translate.chrf_score import sentence_chrf
 
 from model import Transformer
 from tokenize_methods import TokenizerWrapper
@@ -20,12 +22,16 @@ from tokenize_methods import TokenizerWrapper
 
 BOS_WORD = '<s>'
 EOS_WORD = '</s>'
-BLANK_WORD = '<blank>'
-SPECIAL_TOKENS = [BOS_WORD, EOS_WORD, BLANK_WORD]
+BLANK_WORD = '[UNK]'
+SEP_TOKEN = '[SEP]'
+CLS_TOKEN = '[CLS]'
+PAD_TOKEN = '[PAD]'
+MASK_TOKEN = '[MASK]'
+
+SPECIAL_TOKENS = [BOS_WORD, EOS_WORD, BLANK_WORD, SEP_TOKEN, CLS_TOKEN, PAD_TOKEN, MASK_TOKEN]
 
 
 def greedy_decode_sentence(model, sentence, SRC, TGT, tokenizer):
-    model.eval()
     sentence = SRC.preprocess(sentence)
     indexed = []
     for tok in sentence:
@@ -33,11 +39,19 @@ def greedy_decode_sentence(model, sentence, SRC, TGT, tokenizer):
             indexed.append(SRC.vocab.stoi[tok])
         else:
             indexed.append(0)
-    sentence = Variable(torch.LongTensor([indexed])).cuda()
+    return greedy_decode_ids(model, indexed, SRC, TGT, tokenizer)
+
+def greedy_decode_ids(model, sentence, SRC, TGT, tokenizer):
+    model.eval()
+    sentence = Variable(torch.LongTensor([sentence])).cuda()
     trg_init_tok = TGT.vocab.stoi[BOS_WORD]
     trg = torch.LongTensor([[trg_init_tok]]).cuda()
     tokens = []
-    maxlen = 50
+    if tokenizer.tok_type == 'char':
+        maxlen = 500
+    else:
+        maxlen = 50
+        
     for i in range(maxlen):
         size = trg.size(0)
         np_mask = torch.triu(torch.ones(size, size)==1).transpose(0,1)
@@ -45,16 +59,38 @@ def greedy_decode_sentence(model, sentence, SRC, TGT, tokenizer):
         np_mask = np_mask.cuda()
         pred = model(sentence.transpose(0,1), trg, tgt_mask = np_mask)
         add_word = TGT.vocab.itos[pred.argmax(dim=2)[-1]]
-        tokens.append(add_word)
+        
         if add_word == EOS_WORD:
             break
+        tokens.append(add_word)
         trg = torch.cat((trg,torch.LongTensor([[pred.argmax(dim=2)[-1]]]).cuda()))
     
     return tokenizer.decode(tokens, BLANK_WORD)
 
+def score(ds_iter, model, tgt_tokenizer, SRC, TGT):
+    bleu_tot = 0.0
+    chrf_tot = 0.0
+    count = 0
+    model.eval()
+    for i, batch in enumerate(ds_iter):
+        src = batch.src.transpose(0,1)[0].numpy()
+        tgt = batch.tgt.view(-1).numpy()
+        tgt_tokens = []
+        for index in tgt:
+            tgt_tokens.append(TGT.vocab.itos[index])
+        
+        pred_sentence = greedy_decode_ids(model, src, SRC, TGT, tgt_tokenizer).strip().split(' ')
+        tgt_sentence = tgt_tokenizer.decode(tgt_tokens[1:-1], BLANK_WORD).strip().split(' ')
 
-def train_epoch(ds_iter, model, optim, batch_size, train=True, use_gpu=True):
+        bleu_tot += sentence_bleu([tgt_sentence], pred_sentence)
+        chrf_tot += sentence_chrf(tgt_sentence, pred_sentence)
+        count += 1
+    return bleu_tot/count, chrf_tot/count
+        
+
+def train_epoch(ds_iter, model, optim, batch_size, tgt_tokenizer, SRC, TGT, train=True, use_gpu=True):
     epoch_loss = 0
+    #bleu_score = 0.0
     
     for i, batch in enumerate(ds_iter):
             src = batch.src.cuda() if use_gpu else batch.src
@@ -76,12 +112,13 @@ def train_epoch(ds_iter, model, optim, batch_size, train=True, use_gpu=True):
             np_mask = np_mask.float().masked_fill(np_mask == 0, float('-inf')).masked_fill(np_mask == 1, float(0.0))
             np_mask = np_mask.cuda() if use_gpu else np_mask   
             # Forward, backprop, optimizer
-            if (train):
+            if train:
                 optim.zero_grad()
             preds = model(src.transpose(0,1), tgt_input.transpose(0,1), tgt_mask = np_mask)#, src_mask = src_mask)#, tgt_key_padding_mask=tgt_mask)
             preds = preds.transpose(0,1).contiguous().view(-1, preds.size(-1))
-            loss = F.cross_entropy(preds,targets, ignore_index=0,reduction='sum')
-            if (train):
+            loss = F.cross_entropy(preds, targets, ignore_index=0, reduction='sum')
+
+            if train:
                 loss.backward()
                 optim.step()
             
@@ -91,12 +128,14 @@ def train_epoch(ds_iter, model, optim, batch_size, train=True, use_gpu=True):
 
 
 def train(train_iter, val_iter, model, optim, num_epochs, batch_size,
-          test_src_sentence, test_tgt_sentence, SRC, TGT, src_tokenizer, tgt_tokenizer, use_gpu=True):
+          test_src_sentence, test_tgt_sentence, SRC, TGT, src_tokenizer,
+          tgt_tokenizer, checkpoint_file, use_gpu=True):
     train_losses = []
     valid_losses = []
     best_epoch = -1
-    best_train_loss = 100000;
-    best_valid_loss = 100000;
+    best_train_loss = 100000
+    best_valid_loss = 100000
+
     train_start = time.time()
     for epoch in range(num_epochs):
         logging.info(f'''Starting Epoch [{epoch+1}/{num_epochs}]''')
@@ -104,11 +143,11 @@ def train(train_iter, val_iter, model, optim, num_epochs, batch_size,
         
         # Train model
         model.train()
-        train_loss = train_epoch(train_iter, model, optim, batch_size, True)
+        train_loss = train_epoch(train_iter, model, optim, batch_size, tgt_tokenizer, SRC, TGT, True)
         
         model.eval()
         with torch.no_grad():
-            valid_loss = train_epoch(val_iter, model, optim, 1, False)
+            valid_loss = train_epoch(val_iter, model, optim, 1, tgt_tokenizer, SRC, TGT, False)
         
         epoch_time = time.time() - epoch_start
         
@@ -121,7 +160,7 @@ def train(train_iter, val_iter, model, optim, num_epochs, batch_size,
             best_valid_loss = valid_loss
             
             logging.info("Saving state dict")
-            torch.save(model.state_dict(), 'checkpoint_best_epoch.pt')
+            torch.save(model.state_dict(), checkpoint_file)
         
         train_losses.append(train_loss)
         valid_losses.append(valid_loss)
@@ -139,33 +178,35 @@ def train(train_iter, val_iter, model, optim, num_epochs, batch_size,
     train_time = time.time() - train_start
     logging.info(f'''Training complete in {train_time/60/60:.3f} hours.''')
     logging.info(f'''Best train loss: {best_train_loss}. Best val loss: {best_valid_loss}. Attained at epoch {best_epoch}''')
+    logging.info('')
     return train_losses, valid_losses
 
 
-def main(tokenizer, src_tok_file, tgt_tok_file, train_file, val_file, num_epochs, batch_size, d_model,
+def main(tokenizer, src_tok_file, tgt_tok_file, train_file, val_file, test_file, num_epochs, batch_size, d_model,
          nhead, num_encoder_layers, num_decoder_layers, dim_feedforward,
-         dropout, learning_rate, data_path):
+         dropout, learning_rate, data_path, checkpoint_file):
     logging.info('Using tokenizer: {}'.format(tokenizer))
     
-    src_tokenizer = TokenizerWrapper(tokenizer)
+    src_tokenizer = TokenizerWrapper(tokenizer, BLANK_WORD, SEP_TOKEN, CLS_TOKEN, PAD_TOKEN, MASK_TOKEN)
     src_tokenizer.train(src_tok_file, 20000, SPECIAL_TOKENS)
     
-    tgt_tokenizer = TokenizerWrapper(tokenizer)
+    tgt_tokenizer = TokenizerWrapper(tokenizer, BLANK_WORD, SEP_TOKEN, CLS_TOKEN, PAD_TOKEN, MASK_TOKEN)
     tgt_tokenizer.train(tgt_tok_file, 20000, SPECIAL_TOKENS)
     
     SRC = ttdata.Field(tokenize=src_tokenizer.tokenize, pad_token=BLANK_WORD)
     TGT = ttdata.Field(tokenize=tgt_tokenizer.tokenize, init_token = BOS_WORD, eos_token = EOS_WORD, pad_token=BLANK_WORD)
     
     logging.info('Loading training data...')
-    train_ds, val_ds = ttdata.TabularDataset.splits(
+    train_ds, val_ds, test_ds = ttdata.TabularDataset.splits(
         path=data_path, format='tsv',
         train=train_file,
         validation=val_file,
+        test=test_file,
         fields=[('src', SRC), ('tgt', TGT)]
     )
     
-    test_src_sentence = ' '.join(val_ds[0].src)
-    test_tgt_sentence = ' '.join(val_ds[0].tgt)
+    test_src_sentence = val_ds[0].src
+    test_tgt_sentence = val_ds[0].tgt
     
     MIN_FREQ = 2
     SRC.build_vocab(train_ds.src, min_freq=MIN_FREQ)
@@ -176,6 +217,7 @@ def main(tokenizer, src_tok_file, tgt_tok_file, train_file, val_file, num_epochs
     
     train_iter = ttdata.BucketIterator(train_ds, batch_size=batch_size, repeat=False, sort_key=lambda x: len(x.src))
     val_iter = ttdata.BucketIterator(val_ds, batch_size=1, repeat=False, sort_key=lambda x: len(x.src))
+    test_iter = ttdata.BucketIterator(test_ds, batch_size=1, repeat=False, sort_key=lambda x: len(x.src))
     
     source_vocab_length = len(SRC.vocab)
     target_vocab_length = len(TGT.vocab)
@@ -194,8 +236,20 @@ def main(tokenizer, src_tok_file, tgt_tok_file, train_file, val_file, num_epochs
     train_losses,valid_losses = train(train_iter, val_iter,
                                       model, optim, num_epochs, batch_size,
                                       test_src_sentence, test_tgt_sentence,
-                                      SRC, TGT, src_tokenizer, tgt_tokenizer)
+                                      SRC, TGT, src_tokenizer, tgt_tokenizer,
+                                      checkpoint_file)
     
+    # Load best model and score test set
+    logging.info('Loading best model.')
+    model.load_state_dict(torch.load(checkpoint_file))
+    model.eval()
+    logging.info('Scoring the test set...')
+    score_start = time.time()
+    test_bleu, test_chrf = score(test_iter, model, tgt_tokenizer, SRC, TGT)
+    score_time = time.time() - score_start
+    logging.info(f'''Scoring complete in {score_time/60:.3f} minutes.''')
+    logging.info(f'''BLEU : {test_bleu}''')
+    logging.info(f'''CHRF : {test_chrf}''')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
@@ -203,6 +257,7 @@ if __name__ == '__main__':
         formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('train_file', help='Training language pair file (tab-separated).')
     parser.add_argument('val_file', help='Validation language pair file (tab-separated).')
+    parser.add_argument('test_file', help='Validation language pair file (tab-separated).')
     parser.add_argument('num_epochs', help='Number of epochs to train.')
     parser.add_argument('batch_size', help='Batch size.')
     parser.add_argument('tokenizer', help='The tokenizer type.')
@@ -240,12 +295,20 @@ if __name__ == '__main__':
         '--dropout',
         default=0.1,
         help='The dropout value.')
+    parser.add_argument(
+        '--checkpoint_file',
+        default='checkpoint_best_epoch.pt',
+        help='The file to save model checkpoint to.')
+    parser.add_argument(
+        '--log_file',
+        default='train.log',
+        help='The file to write logs to.')
 
     args = parser.parse_args()
 
     # Set up logging
     logging.basicConfig(level=logging.DEBUG,
-                        filename='train.log',
+                        filename=args.log_file,
                         format='%(message)s',
                         filemode='w')
     console = logging.StreamHandler()
@@ -257,6 +320,7 @@ if __name__ == '__main__':
          args.tgt_tok_file,
          args.train_file,
          args.val_file,
+         args.test_file,
          int(args.num_epochs),
          int(args.batch_size),
          int(args.d_model),
@@ -266,5 +330,6 @@ if __name__ == '__main__':
          int(args.dim_feedforward),
          float(args.dropout),
          float(args.learning_rate),
-         args.data_path)
+         args.data_path,
+         args.checkpoint_file)
     

@@ -2,15 +2,19 @@ import nltk
 from tokenizers import ByteLevelBPETokenizer, BertWordPieceTokenizer, SentencePieceBPETokenizer
 
 class TokenizerWrapper:
-    def __init__(self, tok_type):
+    def __init__(self, tok_type, unk_token, sep_token, cls_token, pad_token, mask_token):
         self.tok_type = tok_type
         
         if self.tok_type == 'bpe':
             self.tokenizer = ByteLevelBPETokenizer()
         elif self.tok_type == 'wordpiece':
-            self.tokenizer = BertWordPieceTokenizer()
+            self.tokenizer = BertWordPieceTokenizer(unk_token=unk_token,
+                                                    sep_token=sep_token,
+                                                    cls_token=cls_token,
+                                                    pad_token=pad_token,
+                                                    mask_token=mask_token)
         elif self.tok_type == 'sentencepiece':
-            self.tokenizer = SentencePieceBPETokenizer()
+            self.tokenizer = SentencePieceBPETokenizer(unk_token=unk_token)
     
     def train(self, data_file, vocab_size, special_tokens):
         if self.tok_type in ['bpe', 'wordpiece', 'sentencepiece']:
