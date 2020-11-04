@@ -1,0 +1,240 @@
+Using tokenizer: bpe
+Loading training data...
+SRC vocab size: 18093
+TGT vocab size: 17209
+Starting Epoch [1/20]
+Epoch [1/20] complete in 777.509 seconds.
+Train Loss: 100.899. Val Loss: 86.276
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: the european group of the european union , on the european group , on the european union , on the european union , on the european union .</s>
+-----------------------------------------
+
+Starting Epoch [2/20]
+Epoch [2/20] complete in 784.579 seconds.
+Train Loss: 79.382. Val Loss: 78.489
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: is the only of the same time to the people who have been able to see the people who have been able to be able to be able to be able to be able to be able to be able to be able to take place on the same than
+-----------------------------------------
+
+Starting Epoch [3/20]
+Epoch [3/20] complete in 783.250 seconds.
+Train Loss: 70.946. Val Loss: 68.473
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: it is a state of the british government to the british government of the british republic of the republic of the republic of mr van den berg .</s>
+-----------------------------------------
+
+Starting Epoch [4/20]
+Epoch [4/20] complete in 779.892 seconds.
+Train Loss: 62.495. Val Loss: 60.778
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this principle of the state of the single market is the most high-scale of the death penalty of the death penalty by the death penalty .</s>
+-----------------------------------------
+
+Starting Epoch [5/20]
+Epoch [5/20] complete in 783.267 seconds.
+Train Loss: 55.485. Val Loss: 55.777
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: the 'the 'the 'the 'bb-b-b-b-b-b-b-b-b-b-b-b-b) of the british- billion of the british- billion of the british high-
+-----------------------------------------
+
+Starting Epoch [6/20]
+Epoch [6/20] complete in 773.184 seconds.
+Train Loss: 50.152. Val Loss: 52.490
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: the eu' s high-year-h-h-h-h-h-h-h-h-h-h-h-h-h-a-a-a-a-a- billion of un' s high
+-----------------------------------------
+
+Starting Epoch [7/20]
+Epoch [7/20] complete in 773.117 seconds.
+Train Loss: 46.190. Val Loss: 50.503
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: the bbo-mo-mo-mo-mo-mo-mo-mo-mo-mo-mo-mo-mo-mo-mo-mo-
+-----------------------------------------
+
+Starting Epoch [8/20]
+Epoch [8/20] complete in 772.341 seconds.
+Train Loss: 43.053. Val Loss: 49.218
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: the state of the euro-mo-mo-mo-mo-mo-mo-mo-mo-mo-mo-mo-mo-mo-mo-mo
+-----------------------------------------
+
+Starting Epoch [9/20]
+Epoch [9/20] complete in 778.440 seconds.
+Train Loss: 40.553. Val Loss: 48.040
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: the state of state of euro-mo-ho-ho-mo-mo-mo-mo-mo-mo-mo-mo-mo-mo-mo-m
+-----------------------------------------
+
+Starting Epoch [10/20]
+Epoch [10/20] complete in 766.355 seconds.
+Train Loss: 38.426. Val Loss: 47.286
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: the british state-ski-mo-mo-so-so-so-mo-mo-mo-mo-mo-so-so-s e-mail go
+-----------------------------------------
+
+Starting Epoch [11/20]
+Epoch [11/20] complete in 763.753 seconds.
+Train Loss: 36.524. Val Loss: 46.211
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: the bmmththththththththththththththththththththththththththththththththth em em emthth em em e
+-----------------------------------------
+
+Starting Epoch [12/20]
+Epoch [12/20] complete in 763.274 seconds.
+Train Loss: 34.843. Val Loss: 46.711
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: the former world of s kmothththththththththththththththththththththth em em em em em em em was em em e
+-----------------------------------------
+
+Starting Epoch [13/20]
+Epoch [13/20] complete in 763.760 seconds.
+Train Loss: 33.311. Val Loss: 46.077
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: the bmoththththththththththththththththththththththththththththththth emooooooooooooo
+-----------------------------------------
+
+Starting Epoch [14/20]
+Epoch [14/20] complete in 762.297 seconds.
+Train Loss: 31.897. Val Loss: 45.987
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: the lmoththth hundred and gmoo was the tho of the emmoththth hundred and gmooooo .</s>
+-----------------------------------------
+
+Starting Epoch [15/20]
+Epoch [15/20] complete in 768.240 seconds.
+Train Loss: 30.557. Val Loss: 45.899
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: the ththththththth emo emo eh emo emo emo em em 20th .</s>
+-----------------------------------------
+
+Starting Epoch [16/20]
+Epoch [16/20] complete in 770.763 seconds.
+Train Loss: 29.330. Val Loss: 46.359
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: the tho eho eho eo eo eo eo eo eo eo eo eo eo eo eo eo eo eo eo emox eooo
+-----------------------------------------
+
+Starting Epoch [17/20]
+Epoch [17/20] complete in 761.036 seconds.
+Train Loss: 28.195. Val Loss: 46.432
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: the beloththththth ethth eth eth eth eth eth eth eth eth eth eth eth eo eo eth eooo tel e-el o
+-----------------------------------------
+
+Starting Epoch [18/20]
+Epoch [18/20] complete in 769.832 seconds.
+Train Loss: 27.072. Val Loss: 46.546
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: the cunilathh was her or her eww' s ewk ew' s her tww' s ew' s eko' s tw' s tw' tw' tw
+-----------------------------------------
+
+Starting Epoch [19/20]
+Epoch [19/20] complete in 785.501 seconds.
+Train Loss: 26.026. Val Loss: 47.292
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: the thh eh eh ethththththththth eth eth eth eth eth eth eth eth eil/el eil/e eilo eilo eilo
+-----------------------------------------
+
+Starting Epoch [20/20]
+Epoch [20/20] complete in 782.995 seconds.
+Train Loss: 25.009. Val Loss: 47.224
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: the chroho was aware of the chhh/khh/khhhhhhhkh thinkingkh thinkingkh thinkingkkkkh thinking aboutkhkh thinking aboutk
+-----------------------------------------
+
+Training complete in 4.303 hours.
+Best train loss: 30.55685309607176. Best val loss: 45.89891823736966. Attained at epoch 15

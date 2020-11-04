@@ -1,0 +1,239 @@
+Using tokenizer: bpe
+Loading training data...
+SRC vocab size: 17207
+TGT vocab size: 18095
+Starting Epoch [1/20]
+Epoch [1/20] complete in 525.456 seconds.
+Train Loss: 112.288. Val Loss: 92.160
+Saving state dict
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: b5-2001 de (h5-2001/2001 , au nom du nom du nom des deputes ;</s>
+-----------------------------------------
+
+Starting Epoch [2/20]
+Epoch [2/20] complete in 525.171 seconds.
+Train Loss: 85.063. Val Loss: 83.578
+Saving state dict
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: le gouvernement europeen a ete adopte a l'heure des personnes qui ont ete mis en place , en particulier , l'europe , l'a-dire de l'aide de l'aide de l'aide de l'aide de l'
+-----------------------------------------
+
+Starting Epoch [3/20]
+Epoch [3/20] complete in 523.090 seconds.
+Train Loss: 76.709. Val Loss: 75.527
+Saving state dict
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: cette situation a ete un peu de mort , qui a ete fait , a la guerre , est un peu de mort , a la guerre , a l'egard de la guerre .</s>
+-----------------------------------------
+
+Starting Epoch [4/20]
+Epoch [4/20] complete in 523.608 seconds.
+Train Loss: 67.662. Val Loss: 66.427
+Saving state dict
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: ce type de gcccs est un jour de l'histoire de l'histoire de l'histoire , qui est le debut de l'histoire de l'histoire .</s>
+-----------------------------------------
+
+Starting Epoch [5/20]
+Epoch [5/20] complete in 522.816 seconds.
+Train Loss: 59.426. Val Loss: 59.485
+Saving state dict
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: ce ministere du parti , c'est un parti de l'inonhhhhhhhhhhh , qui est un bcccccc .</s>
+-----------------------------------------
+
+Starting Epoch [6/20]
+Epoch [6/20] complete in 503.479 seconds.
+Train Loss: 53.471. Val Loss: 55.922
+Saving state dict
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: ce ministere a-t-il ete un jour de la tete de l'e-sccsd'est un jour de la tete de l'incccccccccccccccc
+-----------------------------------------
+
+Starting Epoch [7/20]
+Epoch [7/20] complete in 524.727 seconds.
+Train Loss: 49.103. Val Loss: 53.689
+Saving state dict
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: cette mission a ete le bmm . le bcca , le bccc , le bccc , le bcc , le bccccc , le bccccc . le b
+-----------------------------------------
+
+Starting Epoch [8/20]
+Epoch [8/20] complete in 522.723 seconds.
+Train Loss: 45.697. Val Loss: 51.732
+Saving state dict
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: ce ban , le ban ban , a ete le ban , a bhh , le ban de la ban , a la tete de la bedddddddddo , a ke
+-----------------------------------------
+
+Starting Epoch [9/20]
+Epoch [9/20] complete in 524.386 seconds.
+Train Loss: 42.931. Val Loss: 50.297
+Saving state dict
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: cette mission a-bo-bo-bo-bo-bo-bo-bo-bo-bo-de-de , a la tete de l'e-bo-bo-b
+-----------------------------------------
+
+Starting Epoch [10/20]
+Epoch [10/20] complete in 521.678 seconds.
+Train Loss: 40.591. Val Loss: 49.493
+Saving state dict
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: ccboooooooooooooooooooooooooo , le bocdo , le bo-soooooo , le
+-----------------------------------------
+
+Starting Epoch [11/20]
+Epoch [11/20] complete in 521.843 seconds.
+Train Loss: 38.586. Val Loss: 48.969
+Saving state dict
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: cban , le bintta a kcccccb , a kincccccb , a la fadccccccbcbadcbadcbbb
+-----------------------------------------
+
+Starting Epoch [12/20]
+Epoch [12/20] complete in 520.574 seconds.
+Train Loss: 36.758. Val Loss: 48.548
+Saving state dict
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: ce badban badhta , badwt gadh gadta gadado gada , albadtad , alchad , alchad , alchad , alch
+-----------------------------------------
+
+Starting Epoch [13/20]
+Epoch [13/20] complete in 522.030 seconds.
+Train Loss: 35.103. Val Loss: 47.803
+Saving state dict
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: cm . bandoto a ktta , handaltttttttal , hadtal , artal , artal et artal de kadtal , d'
+-----------------------------------------
+
+Starting Epoch [14/20]
+Epoch [14/20] complete in 522.740 seconds.
+Train Loss: 33.557. Val Loss: 48.339
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: le cm . gmm . alkk akkt a ramure d'un appel de chartalege d'un challelelelelelelelegelege d'alm
+-----------------------------------------
+
+Starting Epoch [15/20]
+Epoch [15/20] complete in 522.559 seconds.
+Train Loss: 32.127. Val Loss: 48.725
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: cm . cm . kusustus a kurmuo , alcho , almadtttttt , aldad , alchus , alchus , alchad , alch
+-----------------------------------------
+
+Starting Epoch [16/20]
+Epoch [16/20] complete in 522.062 seconds.
+Train Loss: 30.771. Val Loss: 48.453
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: ce barmararararararta et badarttttttadgege dhazge , cbadtest-a-legelege du tau badsm
+-----------------------------------------
+
+Starting Epoch [17/20]
+Epoch [17/20] complete in 522.586 seconds.
+Train Loss: 29.488. Val Loss: 48.694
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: le tarkt a-taruleo du otarutu artttttttttun ct arttttttttttt art ar du s
+-----------------------------------------
+
+Starting Epoch [18/20]
+Epoch [18/20] complete in 522.507 seconds.
+Train Loss: 28.302. Val Loss: 48.901
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: cm . cm . cararararua a le devoir de m . alulero , le president du conseil de rateritaina</s>
+-----------------------------------------
+
+Starting Epoch [19/20]
+Epoch [19/20] complete in 522.339 seconds.
+Train Loss: 27.097. Val Loss: 49.119
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: cbol , cbottar , kadelt , dbateltartat , d'un rabat , dbolat , dbolat , dbolat , db rab
+-----------------------------------------
+
+Starting Epoch [20/20]
+Epoch [20/20] complete in 523.550 seconds.
+Train Loss: 25.972. Val Loss: 49.697
+
+Source: this has a very distorting and destabilising effect on the world economy .
+
+Target: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Predicted: ce cbta a ktouttartartartartartartoume , aldadaltad , aldains et artaddains artad , dam
+-----------------------------------------
+
+Training complete in 2.908 hours.
+Best train loss: 35.102645545759344. Best val loss: 47.80315660040021. Attained at epoch 13

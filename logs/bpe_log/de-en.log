@@ -1,0 +1,241 @@
+Using tokenizer: bpe
+Loading training data...
+SRC vocab size: 18693
+TGT vocab size: 17249
+Starting Epoch [1/20]
+Epoch [1/20] complete in 531.041 seconds.
+Train Loss: 105.322. Val Loss: 89.344
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the same time , the same time , the same time , the same time , the same time , the same time , the same time , the same is not been a result of the same time , the same time , the same time , the
+-----------------------------------------
+
+Starting Epoch [2/20]
+Epoch [2/20] complete in 528.281 seconds.
+Train Loss: 83.565. Val Loss: 81.788
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the last year , mr van den5-de/2001 , was the last year , on the last year , on the last year , on the last year , the last year , on the last year , on the last year , on the last
+-----------------------------------------
+
+Starting Epoch [3/20]
+Epoch [3/20] complete in 525.753 seconds.
+Train Loss: 76.734. Val Loss: 76.407
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: a5-04/2001 by mr van den berg , on behalf of the pse group , on the situation in the united kingdom , on the human rights of the human rights of the united kingdom;</s>
+-----------------------------------------
+
+Starting Epoch [4/20]
+Epoch [4/20] complete in 524.706 seconds.
+Train Loss: 70.341. Val Loss: 69.154
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: a number of people in the region , particularly in the netherlands , are in favour of a reduction in the average of a small-scale tax/2001 .</s>
+-----------------------------------------
+
+Starting Epoch [5/20]
+Epoch [5/20] complete in 522.111 seconds.
+Train Loss: 63.534. Val Loss: 63.203
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the case of the small-scale industry , the c5-04/2001 of the c5-04/2001 of the c5-04/2001 of the ca/2001 of the c5-mouth disease (a/2001
+-----------------------------------------
+
+Starting Epoch [6/20]
+Epoch [6/20] complete in 527.106 seconds.
+Train Loss: 57.524. Val Loss: 59.306
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: a5-0457/2001 by the small-scale tax on a ch-04ma/2001 by 70% of a little less than 100% per cent per cent per cent per cent per cent per cent per cent per cent per
+-----------------------------------------
+
+Starting Epoch [7/20]
+Epoch [7/20] complete in 526.277 seconds.
+Train Loss: 52.641. Val Loss: 56.488
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the ca-fa-fa-fa-m-fa-fa-fa/2001 of ' 5%' of the ca/2001 of the ca5-fisa/2001 of the
+-----------------------------------------
+
+Starting Epoch [8/20]
+Epoch [8/20] complete in 525.870 seconds.
+Train Loss: 48.761. Val Loss: 54.494
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in a total of nuclear fuel-ba-ba-ba-ba-vis the company (a5-049/2000) by a tax/ecisisisisisis/1999 by a tax on a tax
+-----------------------------------------
+
+Starting Epoch [9/20]
+Epoch [9/20] complete in 524.990 seconds.
+Train Loss: 45.648. Val Loss: 52.376
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: a tax on the tax-bba-5-0050/2001 by a tax of eur 10% of the tax on a tax rate of 0 .</s>
+-----------------------------------------
+
+Starting Epoch [10/20]
+Epoch [10/20] complete in 527.095 seconds.
+Train Loss: 43.070. Val Loss: 52.195
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the case of the tax-free company for nuclear fuel-free fuel-free tax in the c5-0019/00):</s>
+-----------------------------------------
+
+Starting Epoch [11/20]
+Epoch [11/20] complete in 523.225 seconds.
+Train Loss: 40.883. Val Loss: 51.387
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the tax-free company , the cm-fro-m-m-m-fro-m-m-h-m-maro-mo-mo-mo-h-m-m-
+-----------------------------------------
+
+Starting Epoch [12/20]
+Epoch [12/20] complete in 505.220 seconds.
+Train Loss: 38.892. Val Loss: 51.173
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: a quarter of the company's population of the cmo-hmo-maria is , of course , a 0mmoamoa .</s>
+-----------------------------------------
+
+Starting Epoch [13/20]
+Epoch [13/20] complete in 511.775 seconds.
+Train Loss: 37.126. Val Loss: 51.035
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: a5-five per cent of the company - c5-0440/00 mmo - c5-0040/00):</s>
+-----------------------------------------
+
+Starting Epoch [14/20]
+Epoch [14/20] complete in 513.445 seconds.
+Train Loss: 35.481. Val Loss: 50.548
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: at the moment of 'h-fcc' mct-f7-mu-f7-roct-f7 company mhto , ihachishachishachh-mail company m
+-----------------------------------------
+
+Starting Epoch [15/20]
+Epoch [15/20] complete in 520.124 seconds.
+Train Loss: 33.984. Val Loss: 50.420
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: a quarter of the bh-houin-mail company' s e-mail company - c5-009/00 mhal - is found by 0 .</s>
+-----------------------------------------
+
+Starting Epoch [16/20]
+Epoch [16/20] complete in 522.125 seconds.
+Train Loss: 32.577. Val Loss: 50.628
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: a 40% company company account for a 40%/ cent company mho/cttttttdil mtttttttttttttttttttttdil
+-----------------------------------------
+
+Starting Epoch [17/20]
+Epoch [17/20] complete in 522.371 seconds.
+Train Loss: 31.211. Val Loss: 51.559
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: a5-0017-mua-5- waste/ma-mu/ctttt/ma5­cttttttttttttttttttt
+-----------------------------------------
+
+Starting Epoch [18/20]
+Epoch [18/20] complete in 546.627 seconds.
+Train Loss: 29.996. Val Loss: 52.107
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: a small company of m-fir-fir/ale company - c5-0011/00 - c5-0019/00 - is already covered by mr watts .</s>
+-----------------------------------------
+
+Starting Epoch [19/20]
+Epoch [19/20] complete in 558.181 seconds.
+Train Loss: 28.804. Val Loss: 51.262
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: b5-0440/airt - c5-0440/00 at the cleis - on behalf of a cispt - on cisalttttttttt- day by limit - on
+-----------------------------------------
+
+Starting Epoch [20/20]
+Epoch [20/20] complete in 567.142 seconds.
+Train Loss: 27.670. Val Loss: 52.740
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: bhachida mhali company - chachidis - mirley - was estimated at 1% of a mhachal from halisalis epiris ehachhachhachh
+-----------------------------------------
+
+Training complete in 2.940 hours.
+Best train loss: 33.98436106280951. Best val loss: 50.420115687677566. Attained at epoch 15

@@ -1,0 +1,239 @@
+Using tokenizer: bpe
+Loading training data...
+SRC vocab size: 17247
+TGT vocab size: 18695
+Starting Epoch [1/20]
+Epoch [1/20] complete in 535.998 seconds.
+Train Loss: 117.879. Val Loss: 101.286
+Saving state dict
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: die kommission hat die kommission in den europaischen union , die die kommission in den europaischen union und der europaischen union , die in den europaischen union zu einer mitgliedstaaten zu machen .</s>
+-----------------------------------------
+
+Starting Epoch [2/20]
+Epoch [2/20] complete in 527.652 seconds.
+Train Loss: 95.120. Val Loss: 92.119
+Saving state dict
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: b5-03/2001 von den abgeordneten van den anderen von den euro-fraktion , in den anderen jahren , in den letzten jahren , in den euro-fraktion .</s>
+-----------------------------------------
+
+Starting Epoch [3/20]
+Epoch [3/20] complete in 528.781 seconds.
+Train Loss: 87.557. Val Loss: 85.147
+Saving state dict
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: b5-043/2001 von herrn van den abgeordneten van den niederlanden , in der von der letzten partei von herrn van den niederlanden , von der von der kb----de-de-fraktion von herrn van cb-de
+-----------------------------------------
+
+Starting Epoch [4/20]
+Epoch [4/20] complete in 543.789 seconds.
+Train Loss: 80.560. Val Loss: 78.813
+Saving state dict
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: eine reihe von tieren wurde von der c-k-k-k-k-k-i-ky-i-i-c-c-cy-cyyyyyyyyyyyyyy
+-----------------------------------------
+
+Starting Epoch [5/20]
+Epoch [5/20] complete in 545.664 seconds.
+Train Loss: 73.272. Val Loss: 73.128
+Saving state dict
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: die g-de-k-ky-cyy hat sich auf ein drittel der un-my-ky-ka-ca-de-de-de-de-de-de-de-de-de
+-----------------------------------------
+
+Starting Epoch [6/20]
+Epoch [6/20] complete in 547.071 seconds.
+Train Loss: 66.877. Val Loss: 68.616
+Saving state dict
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: die c-c-mail-mail hat sich von cc-jc-c-c-c-c-c-c-c-c-c-c-c-c-c-ccccccc
+-----------------------------------------
+
+Starting Epoch [7/20]
+Epoch [7/20] complete in 543.012 seconds.
+Train Loss: 61.589. Val Loss: 64.502
+Saving state dict
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: die c-m-m-my-my-my-my-my-myy-c-c-cyyyyyyyyy hat den gcyyy- by
+-----------------------------------------
+
+Starting Epoch [8/20]
+Epoch [8/20] complete in 538.289 seconds.
+Train Loss: 57.269. Val Loss: 62.144
+Saving state dict
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: die zeit von 0 , 0 , 0 , 0 , 77-mb-mb-my-my-my-my-my-my-my-c-cy-cy-c
+-----------------------------------------
+
+Starting Epoch [9/20]
+Epoch [9/20] complete in 541.416 seconds.
+Train Loss: 53.663. Val Loss: 59.847
+Saving state dict
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: die crik-m-my-my-my-by-b-my hat die cy-b-b-k-k-k-k-k-c-cy-cy-
+-----------------------------------------
+
+Starting Epoch [10/20]
+Epoch [10/20] complete in 552.507 seconds.
+Train Loss: 50.586. Val Loss: 58.988
+Saving state dict
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: die zeit-b-m-m-m-m-m-m-m-m-m-c-c- hy- hy- b-c- hed- h- b- hed- h- h
+-----------------------------------------
+
+Starting Epoch [11/20]
+Epoch [11/20] complete in 548.770 seconds.
+Train Loss: 47.873. Val Loss: 57.039
+Saving state dict
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: die anwendung der c-7-7-7-7-mm-mm-mat-p-m-mat-n-mat-pat-n-n-n-n-n-n-n
+-----------------------------------------
+
+Starting Epoch [12/20]
+Epoch [12/20] complete in 546.771 seconds.
+Train Loss: 45.430. Val Loss: 56.378
+Saving state dict
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: die zeit von insgesamt 0 ,   m-m-m-m-m-m-m-m-m-m-m-m-c-m-m-c-m- h . h . h . h
+-----------------------------------------
+
+Starting Epoch [13/20]
+Epoch [13/20] complete in 526.612 seconds.
+Train Loss: 43.214. Val Loss: 56.619
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: die zeit von insgesamt                                              
+-----------------------------------------
+
+Starting Epoch [14/20]
+Epoch [14/20] complete in 515.940 seconds.
+Train Loss: 41.171. Val Loss: 56.547
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: die zeit der insgesamt 0 ,  079/mmm-mm-mul-mat-mul-mat-mulan-mulkulk-m , die bereits seit u-pul
+-----------------------------------------
+
+Starting Epoch [15/20]
+Epoch [15/20] complete in 528.605 seconds.
+Train Loss: 39.292. Val Loss: 55.370
+Saving state dict
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: die zeit von insgesamt 0 , 079/mmmmpum-mmating uber die e-rom-pul-pum-pulmum-pakin-pakin-pake
+-----------------------------------------
+
+Starting Epoch [16/20]
+Epoch [16/20] complete in 530.353 seconds.
+Train Loss: 37.505. Val Loss: 55.622
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: die zeit von insgesamt                   hed-mmmins ns                 hed
+-----------------------------------------
+
+Starting Epoch [17/20]
+Epoch [17/20] complete in 535.918 seconds.
+Train Loss: 35.826. Val Loss: 56.023
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: die frist von 69-1-mau-mau-mau-mau-mau-mauc-cm-mauc und cr-cm-m-ped-cped-m
+-----------------------------------------
+
+Starting Epoch [18/20]
+Epoch [18/20] complete in 522.830 seconds.
+Train Loss: 34.219. Val Loss: 56.564
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: das protokoll der vierzehn-mulm-mmmmming ivte ivte                             
+-----------------------------------------
+
+Starting Epoch [19/20]
+Epoch [19/20] complete in 521.957 seconds.
+Train Loss: 32.732. Val Loss: 57.009
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: das protokoll von 69/mauv-munting one one und one-cumer-cumracpus-cpumer one-cpeds ' .</s>
+-----------------------------------------
+
+Starting Epoch [20/20]
+Epoch [20/20] complete in 519.120 seconds.
+Train Loss: 31.270. Val Loss: 57.975
+
+Source: iso 9000 is already taken for granted in firms .
+
+Target: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Predicted: das niveau von 69  0 ,              tels ab  telphanner und telasvirc .</s>
+-----------------------------------------
+
+Training complete in 2.981 hours.
+Best train loss: 39.29193705499592. Best val loss: 55.369705890770554. Attained at epoch 15
