@@ -83,7 +83,11 @@ def score(ds_iter, model, tgt_tokenizer, SRC, TGT):
         tgt_sentence = tgt_tokenizer.decode(tgt_tokens[1:-1], BLANK_WORD).strip().split(' ')
 
         bleu_tot += sentence_bleu([tgt_sentence], pred_sentence)
-        chrf_tot += sentence_chrf(tgt_sentence, pred_sentence)
+        try:
+            chrf_tot += sentence_chrf(tgt_sentence, pred_sentence)
+        except:
+            # Ignore
+            chrf_tot += 0.0
         count += 1
     return bleu_tot/count, chrf_tot/count
         
@@ -184,7 +188,7 @@ def train(train_iter, val_iter, model, optim, num_epochs, batch_size,
 
 def main(tokenizer, src_tok_file, tgt_tok_file, train_file, val_file, test_file, num_epochs, batch_size, d_model,
          nhead, num_encoder_layers, num_decoder_layers, dim_feedforward,
-         dropout, learning_rate, data_path, checkpoint_file):
+         dropout, learning_rate, data_path, checkpoint_file, do_train):
     logging.info('Using tokenizer: {}'.format(tokenizer))
     
     src_tokenizer = TokenizerWrapper(tokenizer, BLANK_WORD, SEP_TOKEN, CLS_TOKEN, PAD_TOKEN, MASK_TOKEN)
@@ -233,11 +237,14 @@ def main(tokenizer, src_tok_file, tgt_tok_file, train_file, val_file, test_file,
     optim = torch.optim.Adam(model.parameters(), lr=learning_rate, betas=(0.9, 0.98), eps=1e-9)
     model = model.cuda()
     
-    train_losses,valid_losses = train(train_iter, val_iter,
-                                      model, optim, num_epochs, batch_size,
-                                      test_src_sentence, test_tgt_sentence,
-                                      SRC, TGT, src_tokenizer, tgt_tokenizer,
-                                      checkpoint_file)
+    if do_train:
+        train_losses,valid_losses = train(train_iter, val_iter,
+                                          model, optim, num_epochs, batch_size,
+                                          test_src_sentence, test_tgt_sentence,
+                                          SRC, TGT, src_tokenizer, tgt_tokenizer,
+                                          checkpoint_file)
+    else:
+        logging.info('Skipped training.')
     
     # Load best model and score test set
     logging.info('Loading best model.')
@@ -303,6 +310,10 @@ if __name__ == '__main__':
         '--log_file',
         default='train.log',
         help='The file to write logs to.')
+    parser.add_argument(
+        '--do_train',
+        default='True',
+        help='If False, skip training and only do scoring from checkpoint.')
 
     args = parser.parse_args()
 
@@ -331,5 +342,6 @@ if __name__ == '__main__':
          float(args.dropout),
          float(args.learning_rate),
          args.data_path,
-         args.checkpoint_file)
+         args.checkpoint_file,
+         args.do_train == 'True')
     
