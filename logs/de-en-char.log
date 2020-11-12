@@ -1,0 +1,367 @@
+Using tokenizer: char
+Loading training data...
+SRC vocab size: 61
+TGT vocab size: 66
+Starting Epoch [1/30]
+Epoch [1/30] complete in 4250.969 seconds.
+Train Loss: 148.351. Val Loss: 110.529
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: i am also a serious to the commission proposal and the commission proposal and the commission of the commission of the commission .
+-----------------------------------------
+
+Starting Epoch [2/30]
+Epoch [2/30] complete in 4242.894 seconds.
+Train Loss: 108.523. Val Loss: 100.106
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission is the commission to the commission that the commission has already been able to the commission the committee on the european union .
+-----------------------------------------
+
+Starting Epoch [3/30]
+Epoch [3/30] complete in 4246.534 seconds.
+Train Loss: 99.796. Val Loss: 95.728
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission has already been able to take the commission to the commission to the commission that the commission has already been able to take place to the european union .
+-----------------------------------------
+
+Starting Epoch [4/30]
+Epoch [4/30] complete in 4245.457 seconds.
+Train Loss: 95.080. Val Loss: 92.996
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission has also adopted the commission to the commission to the commission to the commission and the commission in the commission .
+-----------------------------------------
+
+Starting Epoch [5/30]
+Epoch [5/30] complete in 4241.991 seconds.
+Train Loss: 91.921. Val Loss: 89.939
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission has already addressed the commission to adopt the commission to amend no 1 . 3 billion to the commission .
+-----------------------------------------
+
+Starting Epoch [6/30]
+Epoch [6/30] complete in 4243.724 seconds.
+Train Loss: 89.638. Val Loss: 88.797
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission is also a proposal for a resolution for the commission to the commission and the commission proposal for the commission .
+-----------------------------------------
+
+Starting Epoch [7/30]
+Epoch [7/30] complete in 4243.918 seconds.
+Train Loss: 87.843. Val Loss: 87.420
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission has also proposed a proposal for a common position on the commission to the commission the commission to accept the european union .
+-----------------------------------------
+
+Starting Epoch [8/30]
+Epoch [8/30] complete in 4245.313 seconds.
+Train Loss: 86.242. Val Loss: 86.106
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the commission , the commission has already proposed amendments nos 1 and 11 and 11 september .
+-----------------------------------------
+
+Starting Epoch [9/30]
+Epoch [9/30] complete in 4246.927 seconds.
+Train Loss: 84.923. Val Loss: 84.687
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the committee on budgetary control , the commission has already received a communication on the european union that it is also a proposal for a resolution .
+-----------------------------------------
+
+Starting Epoch [10/30]
+Epoch [10/30] complete in 4243.370 seconds.
+Train Loss: 83.796. Val Loss: 84.113
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the commission , the commission has already adopted a resolution on the statement of the commission and the council and the commission proposal .
+-----------------------------------------
+
+Starting Epoch [11/30]
+Epoch [11/30] complete in 4241.141 seconds.
+Train Loss: 82.833. Val Loss: 83.431
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the case of the commission , the commission has already adopted a strong state of the commission and the council of 2000 .
+-----------------------------------------
+
+Starting Epoch [12/30]
+Epoch [12/30] complete in 4244.208 seconds.
+Train Loss: 81.920. Val Loss: 82.932
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission has already adopted a resolution on the commission proposal for a resolution on the commission and the council of 1999 .
+-----------------------------------------
+
+Starting Epoch [13/30]
+Epoch [13/30] complete in 4247.599 seconds.
+Train Loss: 81.143. Val Loss: 82.517
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the field of the european union , the commission has also proposed that the commission has also proposed to a strong programme for the european union .
+-----------------------------------------
+
+Starting Epoch [14/30]
+Epoch [14/30] complete in 4246.944 seconds.
+Train Loss: 80.438. Val Loss: 81.667
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission will also provide a common position to the commission for the council to accept amendments nos 1 and 11 and 11 .
+-----------------------------------------
+
+Starting Epoch [15/30]
+Epoch [15/30] complete in 4241.855 seconds.
+Train Loss: 79.795. Val Loss: 81.580
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission has also adopted a positive resolution on the commission' s proposal for a directive 92/220/ec and a communication on the status of the european union .
+-----------------------------------------
+
+Starting Epoch [16/30]
+Epoch [16/30] complete in 4241.233 seconds.
+Train Loss: 79.198. Val Loss: 80.936
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the council , the commission has already adopted a proposal for a directive on the subject of the commission proposal for a directive on 20 may 2000 .
+-----------------------------------------
+
+Starting Epoch [17/30]
+Epoch [17/30] complete in 4241.145 seconds.
+Train Loss: 78.631. Val Loss: 80.269
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission has also proposed a response to the commission' s proposal for a directive on the subject of amendment no 2 .
+-----------------------------------------
+
+Starting Epoch [18/30]
+Epoch [18/30] complete in 4241.220 seconds.
+Train Loss: 78.044. Val Loss: 79.955
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the council , the commission has also accepted amendments nos 1 , 1 , 11 , 11 and 21 , and a proposal for a directive .
+-----------------------------------------
+
+Starting Epoch [19/30]
+Epoch [19/30] complete in 4236.602 seconds.
+Train Loss: 77.595. Val Loss: 79.469
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission is also aware of the contract of the european parliament and the council of ministers in the european union .
+-----------------------------------------
+
+Starting Epoch [20/30]
+Epoch [20/30] complete in 4231.299 seconds.
+Train Loss: 77.119. Val Loss: 79.401
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the case of the commission , the commission will propose amendment no 2 on the statement of the commission .
+-----------------------------------------
+
+Starting Epoch [21/30]
+Epoch [21/30] complete in 4240.292 seconds.
+Train Loss: 76.705. Val Loss: 79.816
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission has already proposed a communication on the status of the european union in the field of community law and the commission on the status of the european union .
+-----------------------------------------
+
+Starting Epoch [22/30]
+Epoch [22/30] complete in 4233.967 seconds.
+Train Loss: 76.275. Val Loss: 79.478
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission has also proposed a communication on the commission' s proposal for a directive on the international community for 2002 .
+-----------------------------------------
+
+Starting Epoch [23/30]
+Epoch [23/30] complete in 4240.539 seconds.
+Train Loss: 75.844. Val Loss: 79.458
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission can accept amendment no 2 and the commission communication on the structural funds for the first time of the common position .
+-----------------------------------------
+
+Starting Epoch [24/30]
+Epoch [24/30] complete in 4242.034 seconds.
+Train Loss: 75.518. Val Loss: 78.952
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission has also adopted a proposal for a directive on the status of the european union in 2002 .
+-----------------------------------------
+
+Starting Epoch [25/30]
+Epoch [25/30] complete in 4243.625 seconds.
+Train Loss: 75.252. Val Loss: 78.609
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission has also accepted amendment no 10 on the proposal for a directive on the subject of the commission .
+-----------------------------------------
+
+Starting Epoch [26/30]
+Epoch [26/30] complete in 4244.743 seconds.
+Train Loss: 74.761. Val Loss: 78.741
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission has proposed a communication on the status of the european commission in the field of eur 200 million for the year 2000 .
+-----------------------------------------
+
+Starting Epoch [27/30]
+Epoch [27/30] complete in 4246.723 seconds.
+Train Loss: 74.415. Val Loss: 78.577
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission cannot accept amendments nos 2 and 2 , which are also in favour of the commission proposal for a regulation on the structural funds .
+-----------------------------------------
+
+Starting Epoch [28/30]
+Epoch [28/30] complete in 4245.313 seconds.
+Train Loss: 74.087. Val Loss: 77.956
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the commission has proposed a communication on the statute of the european commission and the commission proposal for a regulation on the situation in 2002 .
+-----------------------------------------
+
+Starting Epoch [29/30]
+Epoch [29/30] complete in 4235.090 seconds.
+Train Loss: 73.790. Val Loss: 78.239
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the commission' s proposal , the commission considers that the commission can accept amendment no 22 and the commission proposal .
+-----------------------------------------
+
+Starting Epoch [30/30]
+Epoch [30/30] complete in 4243.784 seconds.
+Train Loss: 73.473. Val Loss: 77.617
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the commission' s proposal , the commission has also proposed a communication on the status of the european union for 2002 .
+-----------------------------------------
+
+Training complete in 35.385 hours.
+Best train loss: 73.47343587158203. Best val loss: 77.61702881212234. Attained at epoch 30
+
+Loading best model.
+Scoring the test set...
+Scoring complete in 1347.112 minutes.
+BLEU : 0.005900914742908935
+CHRF : 0.2248929609099513

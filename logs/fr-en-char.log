@@ -1,0 +1,365 @@
+Using tokenizer: char
+Loading training data...
+SRC vocab size: 63
+TGT vocab size: 64
+Starting Epoch [1/30]
+Epoch [1/30] complete in 2197.037 seconds.
+Train Loss: 141.085. Val Loss: 106.067
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: the commission has the commission to the commission to the commission to the commission to the council and the council of the council .
+-----------------------------------------
+
+Starting Epoch [2/30]
+Epoch [2/30] complete in 2191.091 seconds.
+Train Loss: 102.242. Val Loss: 94.750
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this is a commission to the commission to the commission to the commission to the commission that the commission will be a strategy of the commission .
+-----------------------------------------
+
+Starting Epoch [3/30]
+Epoch [3/30] complete in 2187.471 seconds.
+Train Loss: 93.480. Val Loss: 89.173
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this is a compromise and the commission and the commission and the commission and the commission are all the proposal for the commission .
+-----------------------------------------
+
+Starting Epoch [4/30]
+Epoch [4/30] complete in 2174.741 seconds.
+Train Loss: 88.517. Val Loss: 86.315
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this will also be a common position on the commission to take the commission to continue to the commission to take account of the commission .
+-----------------------------------------
+
+Starting Epoch [5/30]
+Epoch [5/30] complete in 2170.627 seconds.
+Train Loss: 85.015. Val Loss: 82.975
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this is a compromise and the commission to take the council to achieve the commission to take the council .
+-----------------------------------------
+
+Starting Epoch [6/30]
+Epoch [6/30] complete in 2170.739 seconds.
+Train Loss: 82.130. Val Loss: 81.525
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this regulation is a common position on the commission and the council to act and the commission and the council on the commission .
+-----------------------------------------
+
+Starting Epoch [7/30]
+Epoch [7/30] complete in 2174.564 seconds.
+Train Loss: 79.284. Val Loss: 78.817
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this directive will be able to accept the commission and the council on the community and the community presidency of the community and the community process .
+-----------------------------------------
+
+Starting Epoch [8/30]
+Epoch [8/30] complete in 2167.043 seconds.
+Train Loss: 75.976. Val Loss: 74.465
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this decision was taken into account of the community and the community of the economy and the community law .
+-----------------------------------------
+
+Starting Epoch [9/30]
+Epoch [9/30] complete in 2166.186 seconds.
+Train Loss: 71.497. Val Loss: 69.730
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this attempt to be defended by the economy and the economy and the economy of the economy , mr president , the economy and the economy of the economy .
+-----------------------------------------
+
+Starting Epoch [10/30]
+Epoch [10/30] complete in 2163.478 seconds.
+Train Loss: 66.153. Val Loss: 64.824
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this action is a debate on competition and competitive and economy and the economy of the economy of the economy .
+-----------------------------------------
+
+Starting Epoch [11/30]
+Epoch [11/30] complete in 2167.865 seconds.
+Train Loss: 61.432. Val Loss: 60.332
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this state concerns the debate on competition and debates on the world economy , debates and the world economy .
+-----------------------------------------
+
+Starting Epoch [12/30]
+Epoch [12/30] complete in 2167.738 seconds.
+Train Loss: 57.382. Val Loss: 57.121
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this state of the competition and destabilised competition and destabilised economy , the world economy and the world economy .
+-----------------------------------------
+
+Starting Epoch [13/30]
+Epoch [13/30] complete in 2163.790 seconds.
+Train Loss: 53.947. Val Loss: 54.538
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this state is done to detoo competition and destabilise competition and destabilise the world economy and the world economy .
+-----------------------------------------
+
+Starting Epoch [14/30]
+Epoch [14/30] complete in 2156.343 seconds.
+Train Loss: 51.218. Val Loss: 52.728
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this state is to do this in order to detrogenise competition and destabilise competition and destabilise the world economy .
+-----------------------------------------
+
+Starting Epoch [15/30]
+Epoch [15/30] complete in 2157.684 seconds.
+Train Loss: 49.005. Val Loss: 51.266
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this state has done to determine competition and destabilise the world economy and destabilise the world economy .
+-----------------------------------------
+
+Starting Epoch [16/30]
+Epoch [16/30] complete in 2152.002 seconds.
+Train Loss: 47.152. Val Loss: 51.114
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this is a state to destroy competition and destabilise competition and destabilise the world economy and destabilise the world economy .
+-----------------------------------------
+
+Starting Epoch [17/30]
+Epoch [17/30] complete in 2154.708 seconds.
+Train Loss: 45.518. Val Loss: 49.086
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this is a fact that the state is to determine competition and destabilise competition and destabilise the world economy .
+-----------------------------------------
+
+Starting Epoch [18/30]
+Epoch [18/30] complete in 2160.032 seconds.
+Train Loss: 44.108. Val Loss: 48.125
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this state is a fact to restore competition and destabilise the world economy and destabilise the world economy .
+-----------------------------------------
+
+Starting Epoch [19/30]
+Epoch [19/30] complete in 2158.098 seconds.
+Train Loss: 42.869. Val Loss: 47.541
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this state is a competition state to devote competition and destabilise the world economy .
+-----------------------------------------
+
+Starting Epoch [20/30]
+Epoch [20/30] complete in 2157.209 seconds.
+Train Loss: 41.771. Val Loss: 48.508
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this state is a fact to determine competition and destabilise the world economy and destabilise the world economy .
+-----------------------------------------
+
+Starting Epoch [21/30]
+Epoch [21/30] complete in 2157.773 seconds.
+Train Loss: 40.769. Val Loss: 46.778
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this state of affairs is to detract competition and destabilise the world economy .
+-----------------------------------------
+
+Starting Epoch [22/30]
+Epoch [22/30] complete in 2162.892 seconds.
+Train Loss: 39.851. Val Loss: 45.272
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this state is indeed to distort competition and destabilise the world economy .
+-----------------------------------------
+
+Starting Epoch [23/30]
+Epoch [23/30] complete in 2142.184 seconds.
+Train Loss: 39.019. Val Loss: 47.700
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this is a fact that we have to determine competition and destabilise the world economy and destabilise the world economy .
+-----------------------------------------
+
+Starting Epoch [24/30]
+Epoch [24/30] complete in 2146.257 seconds.
+Train Loss: 38.222. Val Loss: 46.623
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this fact is to distort competition and destabilise the world economy and destabilise the world economy .
+-----------------------------------------
+
+Starting Epoch [25/30]
+Epoch [25/30] complete in 2179.550 seconds.
+Train Loss: 37.502. Val Loss: 46.472
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this fact is that the competition and destabilise the world economy and destabilises the world economy .
+-----------------------------------------
+
+Starting Epoch [26/30]
+Epoch [26/30] complete in 2233.667 seconds.
+Train Loss: 36.813. Val Loss: 47.837
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this state of affairs is to return competition and destabilise the world economy and destabilise the world economy .
+-----------------------------------------
+
+Starting Epoch [27/30]
+Epoch [27/30] complete in 2275.614 seconds.
+Train Loss: 36.175. Val Loss: 46.897
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this is a fact that we can redraft competition and destabilise the world economy and destabilise a global economy .
+-----------------------------------------
+
+Starting Epoch [28/30]
+Epoch [28/30] complete in 2268.951 seconds.
+Train Loss: 35.564. Val Loss: 45.289
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this state of affairs is to detract competition and destabilise the world economy .
+-----------------------------------------
+
+Starting Epoch [29/30]
+Epoch [29/30] complete in 2242.251 seconds.
+Train Loss: 34.957. Val Loss: 44.279
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this state of affairs to distract competition and destabilise the world economy .
+-----------------------------------------
+
+Starting Epoch [30/30]
+Epoch [30/30] complete in 2212.060 seconds.
+Train Loss: 34.399. Val Loss: 44.234
+Saving state dict
+
+Source: cet etat de fait a pour effet de detourner la concurrence et de destabiliser l'economie mondiale .
+
+Target: this has a very distorting and destabilising effect on the world economy .
+
+Predicted: this state of affairs is to distort competition and destabilise the world economy .
+-----------------------------------------
+
+Training complete in 18.190 hours.
+Best train loss: 34.39912263427735. Best val loss: 44.23420736056805. Attained at epoch 30
+
+Loading best model.
+Scoring the test set...
+Scoring complete in 1309.520 minutes.
+BLEU : 0.15837010051863934
+CHRF : 0.5217117382604288

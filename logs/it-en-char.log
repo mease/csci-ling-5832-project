@@ -1,0 +1,367 @@
+Using tokenizer: char
+Loading training data...
+SRC vocab size: 64
+TGT vocab size: 65
+Starting Epoch [1/30]
+Epoch [1/30] complete in 4135.353 seconds.
+Train Loss: 149.779. Val Loss: 111.479
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: the commission has been a positive of the commission on the european union and the european union and the european union .
+-----------------------------------------
+
+Starting Epoch [2/30]
+Epoch [2/30] complete in 4126.750 seconds.
+Train Loss: 108.826. Val Loss: 99.970
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: what is the commission with the commission to the commission to the commission to the commission proposal to the commission ?
+-----------------------------------------
+
+Starting Epoch [3/30]
+Epoch [3/30] complete in 4127.168 seconds.
+Train Loss: 100.004. Val Loss: 96.012
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: what is the commission in the commission in the committee on the commission to the commission and the commission to the commission ?
+-----------------------------------------
+
+Starting Epoch [4/30]
+Epoch [4/30] complete in 4129.322 seconds.
+Train Loss: 95.160. Val Loss: 91.732
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: what is the commission in favour of the commission to propose the commission to propose the commission and the commission is the commission to propose the commission ?
+-----------------------------------------
+
+Starting Epoch [5/30]
+Epoch [5/30] complete in 4155.002 seconds.
+Train Loss: 91.787. Val Loss: 89.441
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: what is the commission the commission in the council to say that the commission will be able to achieve the commission to achieve the commission and the council ?
+-----------------------------------------
+
+Starting Epoch [6/30]
+Epoch [6/30] complete in 4156.577 seconds.
+Train Loss: 89.374. Val Loss: 88.135
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: we have already had to see the commission and the council and the commission to accept the commission to the commission and the council .
+-----------------------------------------
+
+Starting Epoch [7/30]
+Epoch [7/30] complete in 4152.331 seconds.
+Train Loss: 87.489. Val Loss: 86.817
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: what is the commission in the council and the commission is the council and the commission in the committee on budgets ?
+-----------------------------------------
+
+Starting Epoch [8/30]
+Epoch [8/30] complete in 4162.186 seconds.
+Train Loss: 85.956. Val Loss: 84.991
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: what is the commission in fact the commission to accept the commission to take the council of ministers to achieve the internal market ?
+-----------------------------------------
+
+Starting Epoch [9/30]
+Epoch [9/30] complete in 4168.051 seconds.
+Train Loss: 84.569. Val Loss: 84.028
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: what is the commission' s proposal to achieve the proposal for a decision on the commission' s proposal ?
+-----------------------------------------
+
+Starting Epoch [10/30]
+Epoch [10/30] complete in 4159.899 seconds.
+Train Loss: 83.393. Val Loss: 83.302
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: what is the commission in favour of the commission and the council and the commission are able to accept the commission's proposal ?
+-----------------------------------------
+
+Starting Epoch [11/30]
+Epoch [11/30] complete in 4157.135 seconds.
+Train Loss: 82.301. Val Loss: 83.055
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: would it not be a strong debate on the commission' s proposal to adopt the commission' s proposal to the commission ?
+-----------------------------------------
+
+Starting Epoch [12/30]
+Epoch [12/30] complete in 4153.602 seconds.
+Train Loss: 81.327. Val Loss: 82.289
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: is there not a single market in the european union to achieve the problem of the european union , and the commission is the council and the commission ?
+-----------------------------------------
+
+Starting Epoch [13/30]
+Epoch [13/30] complete in 4162.323 seconds.
+Train Loss: 80.440. Val Loss: 81.877
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: will we not be able to achieve the international community in the european union to achieve the international community ?
+-----------------------------------------
+
+Starting Epoch [14/30]
+Epoch [14/30] complete in 4157.182 seconds.
+Train Loss: 79.625. Val Loss: 81.218
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: would it not be a significant instrument to provide an increase in the financial perspective of the european union and the commission to act as a whole ?
+-----------------------------------------
+
+Starting Epoch [15/30]
+Epoch [15/30] complete in 4162.360 seconds.
+Train Loss: 78.892. Val Loss: 80.778
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: would it not be a significant problem for the european union to be able to achieve a strong and secure political parties ?
+-----------------------------------------
+
+Starting Epoch [16/30]
+Epoch [16/30] complete in 4159.047 seconds.
+Train Loss: 78.214. Val Loss: 80.143
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: would it not be a single market to ensure that the european union is a political and economic and social agenda agreed to the european union ?
+-----------------------------------------
+
+Starting Epoch [17/30]
+Epoch [17/30] complete in 4159.595 seconds.
+Train Loss: 77.569. Val Loss: 79.974
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: would it not be a proper state to provide a stability pact of a common agricultural policy which is a problem of the european union ?
+-----------------------------------------
+
+Starting Epoch [18/30]
+Epoch [18/30] complete in 4143.897 seconds.
+Train Loss: 76.963. Val Loss: 80.066
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: is it not a positive step forward by the commission to provide a positive and a proposal for a directive on the protection of the european union ?
+-----------------------------------------
+
+Starting Epoch [19/30]
+Epoch [19/30] complete in 4127.125 seconds.
+Train Loss: 76.379. Val Loss: 79.418
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: would it not be a success to the commission to act as a result of the proposal to the commission in the financial perspective of the european union ?
+-----------------------------------------
+
+Starting Epoch [20/30]
+Epoch [20/30] complete in 4127.199 seconds.
+Train Loss: 75.834. Val Loss: 78.972
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: do you not think that the european union is able to act as a possible standard for a solution to the problem of the european union ?
+-----------------------------------------
+
+Starting Epoch [21/30]
+Epoch [21/30] complete in 4129.782 seconds.
+Train Loss: 75.304. Val Loss: 78.850
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: would it not be a significant instrument for the european union to introduce a strategy for the european union to take action in the future ?
+-----------------------------------------
+
+Starting Epoch [22/30]
+Epoch [22/30] complete in 4130.455 seconds.
+Train Loss: 74.791. Val Loss: 78.597
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: would it not be a matter of urgency to restrict the production of the european union to take account of the programmes of the european union ?
+-----------------------------------------
+
+Starting Epoch [23/30]
+Epoch [23/30] complete in 4133.886 seconds.
+Train Loss: 74.316. Val Loss: 78.310
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: is it not a political priority for the european union to provide a strong european citizenship with the council of ministers to provide a situation of the problem ?
+-----------------------------------------
+
+Starting Epoch [24/30]
+Epoch [24/30] complete in 4129.038 seconds.
+Train Loss: 73.872. Val Loss: 78.400
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: do you not think that the commission is able to accept the communication on the community' s proposal to improve the community' s responsibility for the community action programme ?
+-----------------------------------------
+
+Starting Epoch [25/30]
+Epoch [25/30] complete in 4130.710 seconds.
+Train Loss: 73.407. Val Loss: 77.597
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: would it not be a positive step towards the european union to provide a stabilisation and a strategy for the european union with the united states ?
+-----------------------------------------
+
+Starting Epoch [26/30]
+Epoch [26/30] complete in 4131.010 seconds.
+Train Loss: 72.974. Val Loss: 77.916
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: should we not be able to achieve the objectives of the common fisheries policy on the market in the field of the european union ?
+-----------------------------------------
+
+Starting Epoch [27/30]
+Epoch [27/30] complete in 4130.649 seconds.
+Train Loss: 72.573. Val Loss: 77.773
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: is it not a problem which is a problem with the control of the control of the european union and the commission to provide an information on the provisions of the community ?
+-----------------------------------------
+
+Starting Epoch [28/30]
+Epoch [28/30] complete in 4133.722 seconds.
+Train Loss: 72.166. Val Loss: 77.731
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: is it not a problem with the commission that the council is not able to achieve a significant information and consideration on the provisions of the proposal ?
+-----------------------------------------
+
+Starting Epoch [29/30]
+Epoch [29/30] complete in 4128.336 seconds.
+Train Loss: 71.784. Val Loss: 77.441
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: does the council not consider the international convention to be able to include the provisions of the community and the community in the european union ?
+-----------------------------------------
+
+Starting Epoch [30/30]
+Epoch [30/30] complete in 4130.302 seconds.
+Train Loss: 71.427. Val Loss: 76.860
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: would it not be a matter of urgency to intervene in the concept of the community and the community patent of the european union to implement the provisions of the community ?
+-----------------------------------------
+
+Training complete in 34.555 hours.
+Best train loss: 71.42655614562989. Best val loss: 76.85978621735573. Attained at epoch 30
+
+Loading best model.
+Scoring the test set...
+Scoring complete in 1457.999 minutes.
+BLEU : 0.010420615770020323
+CHRF : 0.25528112162827443
