@@ -1,0 +1,244 @@
+Using tokenizer: word
+Loading training data...
+SRC vocab size: 28548
+TGT vocab size: 16458
+Starting Epoch [1/20]
+Epoch [1/20] complete in 530.480 seconds.
+Train Loss: 97.815. Val Loss: 83.317
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: the european union has been made to the same way that the european union has been made in the european union , but it is not a very important .
+-----------------------------------------
+
+Starting Epoch [2/20]
+Epoch [2/20] complete in 536.768 seconds.
+Train Loss: 78.131. Val Loss: 76.596
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in addition , the situation in the world , the world is also a very important way in the case of the world , in the world .
+-----------------------------------------
+
+Starting Epoch [3/20]
+Epoch [3/20] complete in 538.325 seconds.
+Train Loss: 69.883. Val Loss: 67.525
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the case of the number of cases , the number of people have already been able to have been able to have some problems .
+-----------------------------------------
+
+Starting Epoch [4/20]
+Epoch [4/20] complete in 544.589 seconds.
+Train Loss: 62.272. Val Loss: 62.044
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the case of the current agricultural sector , the financial perspectives have already been made , of course , already already been the case in the field of the sector .
+-----------------------------------------
+
+Starting Epoch [5/20]
+Epoch [5/20] complete in 549.590 seconds.
+Train Loss: 55.878. Val Loss: 56.113
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the form of the fishing industry , of course , the un trade organisation has already been the same , of course , since the south has already been involved .
+-----------------------------------------
+
+Starting Epoch [6/20]
+Epoch [6/20] complete in 546.858 seconds.
+Train Loss: 50.876. Val Loss: 53.840
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the country , the number of eu drivers have , of course , been given the number of eu drivers , even more difficult to have been developed .
+-----------------------------------------
+
+Starting Epoch [7/20]
+Epoch [7/20] complete in 551.603 seconds.
+Train Loss: 46.965. Val Loss: 51.666
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the areas of the eu , the eu ' s external trade programmes , of course , have already been seen in the areas of the number of eu level .
+-----------------------------------------
+
+Starting Epoch [8/20]
+Epoch [8/20] complete in 552.089 seconds.
+Train Loss: 43.903. Val Loss: 50.450
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the area of the company , the average rate of investment has , of course , already been the most high , already has been increased in the area .
+-----------------------------------------
+
+Starting Epoch [9/20]
+Epoch [9/20] complete in 551.719 seconds.
+Train Loss: 41.346. Val Loss: 50.390
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the areas of the production rate , the average rate of more expensive vehicles has , of course , been made in the areas of the production rate .
+-----------------------------------------
+
+Starting Epoch [10/20]
+Epoch [10/20] complete in 550.826 seconds.
+Train Loss: 39.218. Val Loss: 49.058
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the industry , of course , the rate of developing countries has already been developed in the least developed countries , and it has , of course , already , already , already , already the least the least the least the least the least the least the least
+-----------------------------------------
+
+Starting Epoch [11/20]
+Epoch [11/20] complete in 551.822 seconds.
+Train Loss: 37.312. Val Loss: 48.859
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the industry , the least developed railway prices have , of course , already had the least developed times , already have the least more high prices .
+-----------------------------------------
+
+Starting Epoch [12/20]
+Epoch [12/20] complete in 549.001 seconds.
+Train Loss: 35.617. Val Loss: 48.221
+Saving state dict
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the industry , the period of recovery has , of course , already has been increased , of course , already since the period has been paid .
+-----------------------------------------
+
+Starting Epoch [13/20]
+Epoch [13/20] complete in 548.590 seconds.
+Train Loss: 34.037. Val Loss: 48.367
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in companies , the length of storage costs have , of course , already been made , of course , already the length of time for the foreseeable companies .
+-----------------------------------------
+
+Starting Epoch [14/20]
+Epoch [14/20] complete in 548.929 seconds.
+Train Loss: 32.587. Val Loss: 49.117
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the industry , the least developed minimum noise levels have , of course , already been borne in the vehicles for the least developed minimum levels .
+-----------------------------------------
+
+Starting Epoch [15/20]
+Epoch [15/20] complete in 551.771 seconds.
+Train Loss: 31.233. Val Loss: 48.549
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the industry , the maximum minimum minimum periods have already been established , of course , already have been made , of course , in the car .
+-----------------------------------------
+
+Starting Epoch [16/20]
+Epoch [16/20] complete in 555.001 seconds.
+Train Loss: 29.976. Val Loss: 49.615
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the industry , of course , the maximum minimum minimum minimum minimum minimum levels have already been made available in the areas of minimum minimum levels of minimum levels , of course , of course , of course , of course of course of course of course of course
+-----------------------------------------
+
+Starting Epoch [17/20]
+Epoch [17/20] complete in 554.795 seconds.
+Train Loss: 28.754. Val Loss: 49.745
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the industry , of course , the length of remote vehicles have already been made , of course , already in the areas of the length of time .
+-----------------------------------------
+
+Starting Epoch [18/20]
+Epoch [18/20] complete in 555.011 seconds.
+Train Loss: 27.601. Val Loss: 50.574
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the industry , the five times of advance have , of course , already been expected in the number of alcoholic craft have already been in the business .
+-----------------------------------------
+
+Starting Epoch [19/20]
+Epoch [19/20] complete in 555.167 seconds.
+Train Loss: 26.541. Val Loss: 51.066
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the industry , the early retirement conditions have , of course , already been clearly established already in the industry , of course , already in the nordic advance .
+-----------------------------------------
+
+Starting Epoch [20/20]
+Epoch [20/20] complete in 558.147 seconds.
+Train Loss: 25.568. Val Loss: 50.759
+
+Source: in den betrieben ist die iso 9000 schon selbstverstandlich geworden .
+
+Target: iso 9000 is already taken for granted in firms .
+
+Predicted: in the industry , the minimum standard of alcoholic standard has , of course , already been determined in the categories , as the minimum standard for specified standard standard .
+-----------------------------------------
+
+Training complete in 3.057 hours.
+Best train loss: 35.61714187617189. Best val loss: 48.22105125267387. Attained at epoch 12
+
+Loading best model.
+Scoring the test set...
+Scoring complete in 214.039 minutes.
+BLEU : 0.28144300242312253
+CHRF : 0.5267129891095812
