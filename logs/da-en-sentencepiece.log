@@ -1,0 +1,354 @@
+Using tokenizer: sentencepiece
+Loading training data...
+SRC vocab size: 18507
+TGT vocab size: 17001
+Starting Epoch [1/30]
+Epoch [1/30] complete in 928.272 seconds.
+Train Loss: 102.785. Val Loss: 88.612
+Saving state dict
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the commission has already been able to be able to be able to be able to be able to be able to be able to be able to be able to be able to make a good important to make a great deal to make a number of course to
+-----------------------------------------
+
+Starting Epoch [2/30]
+Epoch [2/30] complete in 922.402 seconds.
+Train Loss: 81.847. Val Loss: 78.950
+Saving state dict
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: it is also therefore not to be a proposal to be taken into the commission to ensure that the european parliament will be able to be able to take account .
+-----------------------------------------
+
+Starting Epoch [3/30]
+Epoch [3/30] complete in 913.457 seconds.
+Train Loss: 73.566. Val Loss: 71.118
+Saving state dict
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament must not be able to make a clear position to be able to make a clear contribution to the committee on the european parliament to the committee on the committee on the committee on the committee on the committee on the committee on the committee on the
+-----------------------------------------
+
+Starting Epoch [4/30]
+Epoch [4/30] complete in 902.234 seconds.
+Train Loss: 64.796. Val Loss: 63.246
+Saving state dict
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: parliament should not be able to make a good commitment to the committee on regional policy , the committee on agriculture and the european liberal , on human rights .
+-----------------------------------------
+
+Starting Epoch [5/30]
+Epoch [5/30] complete in 913.429 seconds.
+Train Loss: 57.027. Val Loss: 57.412
+Saving state dict
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would not be possible to adopt a delegation from the parliamentary committee of the european parliament to combat china and china .
+-----------------------------------------
+
+Starting Epoch [6/30]
+Epoch [6/30] complete in 952.766 seconds.
+Train Loss: 51.221. Val Loss: 53.870
+Saving state dict
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would not be useful to send a parliamentary delegation from parliament to the cooperation committee on pakistan to pakistan .
+-----------------------------------------
+
+Starting Epoch [7/30]
+Epoch [7/30] complete in 945.698 seconds.
+Train Loss: 47.065. Val Loss: 51.382
+Saving state dict
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would not be possible to send a parliamentary delegation from parliament to pakistan for pakistan .
+-----------------------------------------
+
+Starting Epoch [8/30]
+Epoch [8/30] complete in 955.380 seconds.
+Train Loss: 43.857. Val Loss: 49.765
+Saving state dict
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would be sensible to send a parliamentary delegation from parliament to the development committee on pakistan as quickly as possible .
+-----------------------------------------
+
+Starting Epoch [9/30]
+Epoch [9/30] complete in 946.286 seconds.
+Train Loss: 41.304. Val Loss: 48.739
+Saving state dict
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would be sensible to send a parliamentary delegation from parliament on development aid to pakistan as quickly as possible .
+-----------------------------------------
+
+Starting Epoch [10/30]
+Epoch [10/30] complete in 925.099 seconds.
+Train Loss: 39.119. Val Loss: 47.835
+Saving state dict
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament must consider whether it would not be appropriate to send a parliamentary delegation from parliament on the development committee to pakistan .
+-----------------------------------------
+
+Starting Epoch [11/30]
+Epoch [11/30] complete in 956.020 seconds.
+Train Loss: 37.229. Val Loss: 46.879
+Saving state dict
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would be sensible to send a parliamentary delegation from parliament on development policy to pakistan .
+-----------------------------------------
+
+Starting Epoch [12/30]
+Epoch [12/30] complete in 956.013 seconds.
+Train Loss: 35.536. Val Loss: 47.163
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would be sensible to send a parliamentary delegation from the development committee to pakistan on development and pakistan as soon as possible .
+-----------------------------------------
+
+Starting Epoch [13/30]
+Epoch [13/30] complete in 991.769 seconds.
+Train Loss: 33.999. Val Loss: 47.311
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would be sensible to send a parliamentary delegation of parliament's development committee to pakistan and pakistan .
+-----------------------------------------
+
+Starting Epoch [14/30]
+Epoch [14/30] complete in 1011.346 seconds.
+Train Loss: 32.567. Val Loss: 46.442
+Saving state dict
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would be sensible to send a parliamentary delegation from the development committee to pakistan .
+-----------------------------------------
+
+Starting Epoch [15/30]
+Epoch [15/30] complete in 1013.207 seconds.
+Train Loss: 31.246. Val Loss: 47.464
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would not be appropriate to send a parliamentary delegation from parliament's development committee to pakistan .
+-----------------------------------------
+
+Starting Epoch [16/30]
+Epoch [16/30] complete in 1007.768 seconds.
+Train Loss: 29.985. Val Loss: 47.276
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would be sensible to send a parliamentary delegation from the european parliament' s development committee to pakistan .
+-----------------------------------------
+
+Starting Epoch [17/30]
+Epoch [17/30] complete in 1029.707 seconds.
+Train Loss: 28.804. Val Loss: 48.178
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would not be sensible to send a parliamentary delegation from the european parliament for development policy to pakistan .
+-----------------------------------------
+
+Starting Epoch [18/30]
+Epoch [18/30] complete in 1003.271 seconds.
+Train Loss: 27.714. Val Loss: 48.312
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would be sensible to send a parliamentary delegation from the european parliament's development committee to pakistan .
+-----------------------------------------
+
+Starting Epoch [19/30]
+Epoch [19/30] complete in 1008.199 seconds.
+Train Loss: 26.669. Val Loss: 48.778
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would be sensible to send a parliamentary delegation from the european parliament delegation to the development policy to pakistan as quickly as possible .
+-----------------------------------------
+
+Starting Epoch [20/30]
+Epoch [20/30] complete in 1016.028 seconds.
+Train Loss: 25.645. Val Loss: 49.031
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would be inappropriate to send a parliamentary delegation from the parliamentary development committee to pakistan as soon as possible .
+-----------------------------------------
+
+Starting Epoch [21/30]
+Epoch [21/30] complete in 1036.358 seconds.
+Train Loss: 24.652. Val Loss: 49.230
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would not be appropriate to send a parliamentary delegation from the parliamentary committee of development to pakistan as soon as possible .
+-----------------------------------------
+
+Starting Epoch [22/30]
+Epoch [22/30] complete in 997.243 seconds.
+Train Loss: 23.684. Val Loss: 50.259
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would be inappropriate to send a parliamentary delegation from parliament's development policy to pakistan as quickly as possible .
+-----------------------------------------
+
+Starting Epoch [23/30]
+Epoch [23/30] complete in 997.397 seconds.
+Train Loss: 22.756. Val Loss: 50.595
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should think if it would not be appropriate to send a parliamentary delegation from the european parliament's development policy to pakistan .
+-----------------------------------------
+
+Starting Epoch [24/30]
+Epoch [24/30] complete in 969.057 seconds.
+Train Loss: 21.855. Val Loss: 51.353
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should think if it would be sensible to send a parliamentary delegation from the european parliament's development committee to pakistan .
+-----------------------------------------
+
+Starting Epoch [25/30]
+Epoch [25/30] complete in 970.135 seconds.
+Train Loss: 20.996. Val Loss: 51.727
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would not be appropriate to send a parliamentary delegation from the development policy committee to pakistan .
+-----------------------------------------
+
+Starting Epoch [26/30]
+Epoch [26/30] complete in 969.449 seconds.
+Train Loss: 20.138. Val Loss: 52.911
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would be inappropriate to send a parliamentary delegation from the european parliament' s development committee to pakistan .
+-----------------------------------------
+
+Starting Epoch [27/30]
+Epoch [27/30] complete in 970.745 seconds.
+Train Loss: 19.323. Val Loss: 53.832
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would be sensible to send a parliamentary delegation from parliament's development committee to pakistan as soon as possible .
+-----------------------------------------
+
+Starting Epoch [28/30]
+Epoch [28/30] complete in 1006.073 seconds.
+Train Loss: 18.571. Val Loss: 54.883
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would be sensible to send a parliamentary delegation from parliament's development and cooperation committee to pakistan as quickly as possible .
+-----------------------------------------
+
+Starting Epoch [29/30]
+Epoch [29/30] complete in 979.753 seconds.
+Train Loss: 17.824. Val Loss: 55.907
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should consider whether it would be wise to send a parliamentary delegation from parliament's development policy to pakistan as quickly as possible to offer a parliament parliamentary committee to pakistan .
+-----------------------------------------
+
+Starting Epoch [30/30]
+Epoch [30/30] complete in 996.993 seconds.
+Train Loss: 17.122. Val Loss: 56.263
+
+Source: europa-parlamentet bør overveje , om det ikke ville være fornuftigt hurtigst muligt at sende en parlamentarisk delegation fra parlamentets udviklingsudvalg til pakistan .
+
+Target: the european parliament should consider the advisability of sending a delegation of members of this parliament's committee on development and cooperation to pakistan as soon as possible .
+
+Predicted: the european parliament should think that it would not be appropriate to send a parliamentary delegation from parliament's development policy to pakistan as a parliament committee on pakistan .
+-----------------------------------------
+
+Training complete in 8.120 hours.
+Best train loss: 32.56719071393736. Best val loss: 46.44210671537876. Attained at epoch 14
+
+Loading best model.
+Scoring the test set...
+Scoring complete in 305.544 minutes.
+BLEU : 0.15640630761102134
+CHRF : 0.5071217016630662
