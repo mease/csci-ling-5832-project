@@ -1,0 +1,356 @@
+Using tokenizer: sentencepiece
+Loading training data...
+SRC vocab size: 18523
+TGT vocab size: 16894
+Starting Epoch [1/30]
+Epoch [1/30] complete in 517.431 seconds.
+Train Loss: 104.566. Val Loss: 89.345
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: we must not be able to make a number of countries and that we are not to be able to make the european union .
+-----------------------------------------
+
+Starting Epoch [2/30]
+Epoch [2/30] complete in 518.550 seconds.
+Train Loss: 83.779. Val Loss: 81.030
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: and what is the case of the european union and the european union is not the right to be able to make it more more more than more than more than more than more than more than more than more than more than more than more than more than more
+-----------------------------------------
+
+Starting Epoch [3/30]
+Epoch [3/30] complete in 505.925 seconds.
+Train Loss: 76.407. Val Loss: 73.425
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: is not a proposal for a new and social policy to be able to be able to be able to be able to make a more effective and more effective policy ?
+-----------------------------------------
+
+Starting Epoch [4/30]
+Epoch [4/30] complete in 505.495 seconds.
+Train Loss: 68.427. Val Loss: 66.076
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: we do not need to make more effective information and to ensure that the information and democratic control is a matter of urgency ?
+-----------------------------------------
+
+Starting Epoch [5/30]
+Epoch [5/30] complete in 507.643 seconds.
+Train Loss: 61.331. Val Loss: 61.168
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: it is not a need to ensure better protection and to ensure that democratic control is a democratic and democratic basis ?
+-----------------------------------------
+
+Starting Epoch [6/30]
+Epoch [6/30] complete in 509.972 seconds.
+Train Loss: 55.797. Val Loss: 57.180
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: is it not urgent to ensure better protection and to ensure that democratic control is taken into force and to ensure that democratic control is respected ?
+-----------------------------------------
+
+Starting Epoch [7/30]
+Epoch [7/30] complete in 508.630 seconds.
+Train Loss: 51.493. Val Loss: 54.964
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: it is not urgent to ensure better protection of data and to ensure that democratic control and democratic control are protected ?
+-----------------------------------------
+
+Starting Epoch [8/30]
+Epoch [8/30] complete in 521.062 seconds.
+Train Loss: 48.112. Val Loss: 53.461
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: finally , it is not urgent to ensure better protection of data and to ensure democratic control and democratic control control ?
+-----------------------------------------
+
+Starting Epoch [9/30]
+Epoch [9/30] complete in 518.128 seconds.
+Train Loss: 45.364. Val Loss: 52.002
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: secondly , it is not urgent to ensure better protection of data protection and to ensure democratic control and judicial control ?
+-----------------------------------------
+
+Starting Epoch [10/30]
+Epoch [10/30] complete in 518.345 seconds.
+Train Loss: 43.023. Val Loss: 51.657
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: it is not urgent to ensure better protection of data and finally to ensure democratic control and judicial control of democratic control ?
+-----------------------------------------
+
+Starting Epoch [11/30]
+Epoch [11/30] complete in 511.896 seconds.
+Train Loss: 40.997. Val Loss: 50.459
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: finally , we must ensure that we guarantee better protection of data protection and ensure democratic control and democratic control of the public ?
+-----------------------------------------
+
+Starting Epoch [12/30]
+Epoch [12/30] complete in 510.838 seconds.
+Train Loss: 39.194. Val Loss: 50.842
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: it is not urgent to ensure better protection of data protection and finally ensure democratic and judicial control and judicial control ?
+-----------------------------------------
+
+Starting Epoch [13/30]
+Epoch [13/30] complete in 508.484 seconds.
+Train Loss: 37.538. Val Loss: 50.541
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: it is not urgent to ensure better protection of data protection and finally ensure that democratic and legal control is controlled ?
+-----------------------------------------
+
+Starting Epoch [14/30]
+Epoch [14/30] complete in 506.467 seconds.
+Train Loss: 36.015. Val Loss: 49.982
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: it is not an urgent matter to ensure better protection of data protection and finally ensure that democratic control and legal control is applied ?
+-----------------------------------------
+
+Starting Epoch [15/30]
+Epoch [15/30] complete in 508.532 seconds.
+Train Loss: 34.537. Val Loss: 49.971
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: it is not urgent to ensure better protection of data protection and finally ensure democratic and judicial control of the matter and legal control ?
+-----------------------------------------
+
+Starting Epoch [16/30]
+Epoch [16/30] complete in 507.889 seconds.
+Train Loss: 33.206. Val Loss: 49.964
+Saving state dict
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: it is not urgent to ensure better protection of data and finally ensure that democratic and judicial control is carried out ?
+-----------------------------------------
+
+Starting Epoch [17/30]
+Epoch [17/30] complete in 507.671 seconds.
+Train Loss: 31.915. Val Loss: 50.385
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: it is not urgent to ensure better protection of data protection and finally ensure that democratic and judicial control is opened up ?
+-----------------------------------------
+
+Starting Epoch [18/30]
+Epoch [18/30] complete in 503.019 seconds.
+Train Loss: 30.727. Val Loss: 50.806
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: it is not urgent to guarantee better protection of data protection and , finally , ensure that democratic and judicial control is monitored ?
+-----------------------------------------
+
+Starting Epoch [19/30]
+Epoch [19/30] complete in 507.925 seconds.
+Train Loss: 29.621. Val Loss: 51.271
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: it is not urgent to guarantee better data protection and finally ensure that democratic and judicial control is monitored and judicial control ?
+-----------------------------------------
+
+Starting Epoch [20/30]
+Epoch [20/30] complete in 510.304 seconds.
+Train Loss: 28.525. Val Loss: 51.388
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: it is not urgent to ensure better protection of data protection and finally ensure that democratic and judicial control is monitored and judicial .
+-----------------------------------------
+
+Starting Epoch [21/30]
+Epoch [21/30] complete in 513.636 seconds.
+Train Loss: 27.490. Val Loss: 51.467
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: it is not a matter of urgency to ensure better protection of data protection and , finally , ensuring that democratic and judicial control is carried out ?
+-----------------------------------------
+
+Starting Epoch [22/30]
+Epoch [22/30] complete in 509.408 seconds.
+Train Loss: 26.459. Val Loss: 52.682
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: it is not urgent to guarantee better protection of data and finally ensure that democratic and judicial control is monitored and judicial control ?
+-----------------------------------------
+
+Starting Epoch [23/30]
+Epoch [23/30] complete in 513.545 seconds.
+Train Loss: 25.491. Val Loss: 52.976
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: it is not urgent to guarantee better data protection and finally ensure that democratic and judicial control is applied ?
+-----------------------------------------
+
+Starting Epoch [24/30]
+Epoch [24/30] complete in 524.407 seconds.
+Train Loss: 24.486. Val Loss: 53.289
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: there is no urgent need to ensure better protection of data and , finally , to ensure that democratic and judicial control is monitored ?
+-----------------------------------------
+
+Starting Epoch [25/30]
+Epoch [25/30] complete in 538.023 seconds.
+Train Loss: 23.566. Val Loss: 53.610
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: it is not urgent to guarantee better protection of data and finally ensure that democratic and judicial control is monitored and judicial .
+-----------------------------------------
+
+Starting Epoch [26/30]
+Epoch [26/30] complete in 506.417 seconds.
+Train Loss: 22.656. Val Loss: 54.985
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: there is no urgent need to ensure better protection of data and , finally , ensure democratic and judicial control and judicial control ?
+-----------------------------------------
+
+Starting Epoch [27/30]
+Epoch [27/30] complete in 504.712 seconds.
+Train Loss: 21.788. Val Loss: 55.455
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: surely it is urgent to ensure better protection of data protection and , finally , ensure that democratic and judicial control is maintained ?
+-----------------------------------------
+
+Starting Epoch [28/30]
+Epoch [28/30] complete in 504.093 seconds.
+Train Loss: 20.949. Val Loss: 55.788
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: it is not urgent to guarantee better data protection and finally guarantee democratic and judicial control and judicial control ?
+-----------------------------------------
+
+Starting Epoch [29/30]
+Epoch [29/30] complete in 511.250 seconds.
+Train Loss: 20.148. Val Loss: 56.745
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: is it not urgent to ensure better protection of data protection and , finally , to ensure that democratic and judicial control is monitored and judicial ?
+-----------------------------------------
+
+Starting Epoch [30/30]
+Epoch [30/30] complete in 515.330 seconds.
+Train Loss: 19.371. Val Loss: 57.255
+
+Source: non e urgente garantire una migliore protezione dei dati ed infine assicurare un controllo democratico e giurisdizionale ?
+
+Target: surely we urgently need to guarantee better data protection and finally ensure that we have democratic and judicial scrutiny ?
+
+Predicted: there is no urgent need to improve data protection and , finally , ensure that democratic and judicial control is monitored and judicial ?
+-----------------------------------------
+
+Training complete in 4.274 hours.
+Best train loss: 33.20583974834596. Best val loss: 49.96371658145189. Attained at epoch 16
+
+Loading best model.
+Scoring the test set...
+Scoring complete in 164.154 minutes.
+BLEU : 0.32084677598193534
+CHRF : 0.5492457223411521
